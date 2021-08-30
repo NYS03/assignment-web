@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+header{
+  background-image: url("image.jpg");
+}
+
+h1{
+  text-align: center;
+  font-family:fantasy;
+  color:rgb(163, 96, 7)
+}
+
+li{
+  float: left;
+  width:10%;
+}
+.bg-img {
+  background-image: url("wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position:relative;
+  margin: auto;
+  max-width:850px;
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=date], input[type=tel], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+h2{
+  text-align: center;
+  font-family: monospace;
+  color: chocolate;
+  padding: 20px;
+}
+p{
+  position: relative;
+  text-align: center;
+  bottom: 0;
+}
