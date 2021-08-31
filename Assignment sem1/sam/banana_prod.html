@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        SHOME - About Us
+   
+   Author: SAM HEW WEI
+   Date:   30th August 2021
+   
+   Filename: banana_prod.html
+   -->
+    <meta charset="utf-8" />
+    <title>SHOME</title>   
+    <style>
+        nav {
+         display: table;
+         width: 100%;
+        }
+
+        nav > ul{
+            display: table-row;
+        }
+        
+        nav > ul > li {
+	        display: table-cell;
+	        text-align: center;
+        }
+
+        nav > ul > li > a {
+	        display: block;
+            text-decoration: none;
+            color: black;
+            background-color:lavenderblush;
+        }
+        
+        footer{
+            background-color:thistle;
+        }
+
+        footer > a {
+            color: black;
+            text-decoration: none;
+        }
+    </style> 
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+            <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+             </ul>
+            </nav>
+    </header>
+<br/>
+
+    <img src="banana_bread1.jpg"  alt="Banana Bread" width="200" height="300">
+    <img src="banana_bread2.jpg"  alt="Banana Bread" width="200" height="300">
+        <h2>Banana Bread (9 inch)</h2>
+        <h3>RM20.00</h3>
+        <form action="/action_page.php" method="get">
+            <label for="type">Sweetness : </label>
+            <input type="text" id="browerstype" list="browsers" name="browerstype"  placeholder=""/>
+            <datalist id="browsers">
+                <option value="None">None</option>
+                <option value="Standard">Standard</option>
+            </datalist><br/><br/>
+            Quantity : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            <button type="reset" value="Reset">Reset</button>
+            <button type="add" value="add">Add to Cart</button> <!--PHP-->
+        </form>
+
+        <br/>
+        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
+        <br/><br/><hr/>
+        <p>Warmed it up. Shome's Banana Bread is a simple delicacy that you will unforgettable. Will not forget the memories shared around one of our breads. Fresh baked goods are perfect for holiday parties, birthdays and special occasions. Because when there is banana bread on the table, every moment is special.</p>
+        <ul>
+            <li>Size: 9 inch (1 loaf)</li>
+            <li>Weight: 56g +/- (Per loaf)</li>
+            <li>Pre-order: 2 Days</li>
+        </ul>
+    
+        
+ 
+    <!--Footer-->
+    <footer>
+        <a href="about_us.html">ABOUT US</a>
+        <br/>
+        <a href="tnc.html">TERMS AND CONDITIONS</a> 
+        <!--rmb change link's name-->
+        <hr/>
+        <p><strong>OUTLETS & CONTACTS</strong></p>
+        <p>&#x1F4CD;   Lot 7.26 A&B-3, Level 3 Parkson, Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+        <p>&#x1F4E9; <a href="mailto:Shome@gmail.com">Shome@gmail.com</a>
+        <p>&#x1F4DE; <a href="tel:0123456789">+60123456789</a>
+    </footer>
+    </body>
+    
+</html>

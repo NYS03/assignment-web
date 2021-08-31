@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        SHOME - About Us
+   
+   Author: SAM HEW WEI
+   Date:   30th August 2021
+   
+   Filename: pies_prod.html
+   -->
+    <meta charset="utf-8" />
+    <title>SHOME</title>   
+    <style>
+        nav {
+         display: table;
+         width: 100%;
+        }
+
+        nav > ul{
+            display: table-row;
+        }
+        
+        nav > ul > li {
+	        display: table-cell;
+	        text-align: center;
+        }
+
+        nav > ul > li > a {
+	        display: block;
+            text-decoration: none;
+            color: black;
+            background-color:lavenderblush;
+        }
+        
+        footer{
+            background-color:thistle;
+        }
+
+        footer > a {
+            color: black;
+            text-decoration: none;
+        }
+    </style> 
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+            <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+             </ul>
+            </nav>
+    </header>
+<br/>
+
+    <img src="pies.jpeg"  alt="Pies" width="200" height="300">
+    <img src="pies1.jpg"  alt="pies" width="200" height="300">
+    <img src="pies2.jpg"  alt="pies" width="200" height="300">
+    <img src="pies3.jpg"  alt="pies" width="200" height="300">
+    
+        <h2>Pies (6")</h2>
+        <h3>RM50.00</h3>
+        <form action="/action_page.php" method="get">
+            <label for="type">Flavors : </label>
+            <input type="text" id="browerstype" list="browsers" name="browerstype"  placeholder=""/>
+            <datalist id="browsers">
+                <option value="Salted Caramel">Salted Caramel</option>
+                <option value="Classic Apple Pie">Classic Apple Pie</option>
+            </datalist><br/><br/>
+            Quantity : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            <button type="reset" value="Reset">Reset</button>
+            <button type="add" value="add">Add to Cart</button> <!--PHP-->
+        </form>
+
+        <br/>
+        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
+        <br/><br/><hr/>
+        <p>This all time classic favourite is made with a rich short crust pastry that is loaded with chunks of lightly spiced apples. Shome has also recently launched quite novel new flavors, Salted Caramel. Best served with vanilla ice cream for an ultimate dessert. All orders are fresh-baked.</p>
+        <ul>
+            <li>Size: 6 inch </li>
+            <li>Weight: 1kg +/-</li>
+            <li>Pre-order: 1 Days</li>
+        </ul>
+    
+        
+ 
+    <!--Footer-->
+    <footer>
+        <a href="about_us.html">ABOUT US</a>
+        <br/>
+        <a href="tnc.html">TERMS AND CONDITIONS</a> 
+        <!--rmb change link's name-->
+        <hr/>
+        <p><strong>OUTLETS & CONTACTS</strong></p>
+        <p>&#x1F4CD;   Lot 7.26 A&B-3, Level 3 Parkson, Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+        <p>&#x1F4E9; <a href="mailto:Shome@gmail.com">Shome@gmail.com</a>
+        <p>&#x1F4DE; <a href="tel:0123456789">+60123456789</a>
+    </footer>
+    </body>
+    
+</html>

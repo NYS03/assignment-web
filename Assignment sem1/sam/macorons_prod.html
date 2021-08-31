@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        SHOME - About Us
+   
+   Author: SAM HEW WEI
+   Date:   30th August 2021
+   
+   Filename: macarons_prod.html
+   -->
+    <meta charset="utf-8" />
+    <title>SHOME</title>   
+    <style>
+        nav {
+         display: table;
+         width: 100%;
+        }
+
+        nav > ul{
+            display: table-row;
+        }
+        
+        nav > ul > li {
+	        display: table-cell;
+	        text-align: center;
+        }
+
+        nav > ul > li > a {
+	        display: block;
+            text-decoration: none;
+            color: black;
+            background-color:lavenderblush;
+        }
+        
+        footer{
+            background-color:thistle;
+        }
+
+        footer > a {
+            color: black;
+            text-decoration: none;
+        }
+    </style> 
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+            <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+             </ul>
+            </nav>
+    </header>
+<br/>
+
+    <img src="macron_prod.jpeg"  alt="Macarons" width="200" height="300">
+    <img src="macron1_prod.jpg"  alt="Macarons" width="200" height="300">
+    <img src="macron3_prod.jpg"  alt="Macarons" width="200" height="300">
+    <img src="macron4_prod.jpg"  alt="Macarons" width="200" height="300">
+    <img src="macron5_prod.jpg"  alt="Macarons" width="200" height="300">
+    <img src="macron2_prod.jpg"  alt="Macarons" width="200" height="300">
+        <h2>Macorons (6 pcs)</h2>
+        <h3>RM30.00</h3>
+        <form action="/action_page.php" method="get">
+            <label for="type">Flavors : </label>
+            <input type="text" id="browerstype" list="browsers" name="browerstype"  placeholder=""/>
+            <datalist id="browsers">
+                <option value="Mix Flavors">Mix Flavours</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Matcha Tea">Matcha Tea</option>
+                <option value="Raspberry">Raspberry</option>
+                <option value="Chocolate ">Chocolate</option>
+                <option value="Oneh-oneh">Oneh-oneh</option>
+            </datalist><br/><br/>
+            Quantity (box) : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            <button type="reset" value="Reset">Reset</button>
+            <button type="add" value="add">Add to Cart</button> <!--PHP-->
+        </form>
+
+        <br/>
+        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
+        <br/><br/><hr/>
+        <p>Vibrant and soft macarons with crispy surfaces, each flavor represents our different passions towards quality, a great gift to your loved one! Our macarons comprise of 6 flavours and packing with box. Macarons last for 7 days at ambient temperature and for up to 7 weeks in the fridge.</p>
+        <ul>
+            <li>Size: 4.5cm (diameter) </li>
+            <li>Weight: 40g +/- (Per Piece)</li>
+            <li>Pre-order: 1 Days</li>
+        </ul>
+    
+        
+ 
+    <!--Footer-->
+    <footer>
+        <a href="about_us.html">ABOUT US</a>
+        <br/>
+        <a href="tnc.html">TERMS AND CONDITIONS</a> 
+        <!--rmb change link's name-->
+        <hr/>
+        <p><strong>OUTLETS & CONTACTS</strong></p>
+        <p>&#x1F4CD;   Lot 7.26 A&B-3, Level 3 Parkson, Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+        <p>&#x1F4E9; <a href="mailto:Shome@gmail.com">Shome@gmail.com</a>
+        <p>&#x1F4DE; <a href="tel:0123456789">+60123456789</a>
+    </footer>
+    </body>
+    
+</html>
