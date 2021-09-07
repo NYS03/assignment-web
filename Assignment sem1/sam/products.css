@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+	font-size: 14px;
+    background-color:#C9CCD5;
+}
+
+body {
+	width: 92%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > header {
+	width: 85%;
+    display: block;
+	float: left;
+	margin: 0% 6% 6% 6%;
+}
+
+body p{
+    display: block;
+    width: 100%;
+}
+
+figure.A{
+    display: block;
+    float: left;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+figure figcaption p{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    clear:both;
+    text-align: left;
+    background-color:#93B5C6; /*depend theme*/
+}
+footer > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer p{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 5px;
+}
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+
+@media only screen and (min-width: 481px) {
+
+    html {
+        height: 100%;
+        font-size: 16px;
+    }
+    
+    body {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    figure.A{
+        display: block;
+        float: left;
+    }
+    
+    figure img.A {
+        display: block;
+        width: 100%;
+        clip:rect(100px,270px,260px,65px);
+    }
+    figure figcaption p{
+        color: black;
+        text-decoration: none;
+    }
+
+    
+}
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+@media only screen and (min-width: 769px)
+{
+
+html, body {
+	font-size: 18px;
+}
+html{
+    margin: 0px auto;
+}
+
+body {
+	width: 100%;
+    max-width: 100%;
+    margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+}
+
+}

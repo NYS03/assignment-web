@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+	font-size: 14px;
+    background-color:#C9CCD5;
+}
+@charset "utf-8";
+
+html {
+	height: 100%;
+	font-size: 14px;
+    background-color:#C9CCD5;
+}
+
+footer{
+    clear:both;
+    text-align: left;
+    background-color:#93B5C6; /*depend theme*/
+}
+footer > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer p{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 5px;
+}
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+
+@media only screen and (min-width: 481px) {
+
+    html {
+        height: 100%;
+        font-size: 16px;
+    }
+
+    
+}
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+@media only screen and (min-width: 769px)
+{
+
+html{
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+}
+
+footer{
+    clear:both;
+    text-align: left;
+    background-color:#93B5C6; /*depend theme*/
+}
+footer > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer p{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 5px;
+}
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+
+@media only screen and (min-width: 481px) {
+
+    html {
+        height: 100%;
+        font-size: 16px;
+    }
+    
+
+    
+}
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+@media only screen and (min-width: 769px)
+{
+
+html{
+    font-size: 18px;
+    margin: 0px auto;
+}
+
+}
