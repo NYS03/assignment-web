@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <style> 
-        body{background-color:rgb(245, 232, 199);}
-        nav{background-color: rgb(242, 187, 123)}
-        nav > ul > li{display: table-cell; text-align: center; vertical-align: middle;}
-        nav > ul > li >a{display: inline-block; font-size: 30px;margin:5px 80px ; text-decoration: none;}
-        li:hover{background-color:rgb(255, 223, 175);}
-        
-        table tr td{text-align: center;}
-        table tr th{font-size: 25px;}
-        table tr td img{width: 300px; height: 400px; margin: 100px 50px 10px}
-        .Products{margin-left: auto; margin-right: auto;}
-       table tr td a img{border-radius: 20px;}
-       
-    </style>
     <head>
         <title>SHOME</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     </head>
-    <body>
-        <nav style="border-radius: 10px;">
+    <header>
+        <nav>
             <ul>
-                <li><a href="home.html"><img src="logo1.jpeg" alt="shome logo" width="80px" height="90px" style="border-radius: 15px;"></a></li>
+                <li><a style="padding: 0px;" href="home.html"><img src="logo.png" ></a></li>
                 <li><a href="home.html">Home</a></li>
-                <li><a>My Profile</a></li>
+                <li><a>My_Profile</a></li>
                 <li><a>Products</a></li>
                 <li><a href="customisation.html">Customization</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a><i class="fa fa-shopping-cart" style="font-size:30px"></i></a></li>
+                <li><a>About_Us</a></li>
                 
+                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
             </ul>
         </nav>
+    </header>
+    <body>
         <table class="Products">
             <tr>
                 <td ><a><img src="baguette.jpg"></a></td>
@@ -66,6 +53,11 @@
                 <th><a>Biscuits</a></th>
             </tr>
         </table>
+        <div>
+            <div class="ContactUs">
+                <a><i class="fa fa-envelope-o" style="font-size:36px"></i>Contact_Us</a>
+            </div>
+        </div>
     </body>
     <footer>
 
