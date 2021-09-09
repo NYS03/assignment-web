@@ -1,15 +1,59 @@
 @charset "utf-8";
 
-body, html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+html{
+  position: relative;
+  width: 100%;
 }
 
-* {
-  box-sizing: border-box;
+
+body{
+
+  background-color:rgb(245, 232, 199);
+  
+  
 }
-header{
-  background-image: url("image.jpg");
+
+
+
+nav.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(92, 61, 46);
+  height: 100px;
+  width: 100%;
+  border-radius: 20px;
+ font: 16px;
+  
+}
+
+
+nav.header ul li{
+  float: left;
+  
+} 
+
+nav.header li:hover{
+  background-color: rgb(134, 84, 57);
+}
+
+nav.header ul li > a{
+  display: block;
+  padding: 33px 30px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav.header ul li > a > img{
+  display: block;
+  width: 260px;
+  height: 100px;
+
+  
 }
 
 h1{
