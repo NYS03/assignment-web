@@ -1,0 +1,90 @@
+@charset"utf-8";
+
+
+
+
+
+
+body {
+    counter-reset: title;
+    margin: auto;
+    background-color: rgb(245, 232, 199);
+
+   
+}
+
+nav{
+    
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(92, 61, 46);
+        height: 100px;
+        border-radius: 20px;
+        flex: 1 1 auto;
+    }
+
+nav li {
+    float: left;
+}
+
+nav li:hover {
+        background-color: rgb(134, 84, 57);
+    }
+
+ nav li > a {
+        display: block;
+        padding: 33px 30px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+     nav li > a > img {
+            display: block;
+            width: 260px;
+            height: 100px;
+        }
+
+
+
+
+
+
+
+div > li {
+    font-size: 20px;
+    counter-increment: title;
+}
+
+ol.term {
+    counter-reset: term;
+    padding: 8px;
+}
+
+    ol.term li {
+        display: block;
+        position: relative;
+        padding: 10px;
+    }
+
+        ol.term li::before {
+            counter-increment: term;
+            content: counter(title) "." counter(term);
+            margin-right: 2%;
+            right: 10px;
+        }
+
+div.tnc {
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
