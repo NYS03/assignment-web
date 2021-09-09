@@ -6,10 +6,7 @@ html{
 
 
 body{
-
     background-color:rgb(245, 232, 199);
-    
-    
 }
 
 
@@ -22,22 +19,20 @@ nav.header ul{
     background-color: rgb(92, 61, 46);
     height: 100px;
     width: 100%;
-    border-radius: 20px;
-   
-    
+    border-radius: 20px; 
 }
 
 
 nav.header ul li{
     float: left;
-    
+    width: auto;
 } 
 
 nav.header li:hover{
     background-color: rgb(134, 84, 57);
 }
 
-nav.header ul li > a{
+nav.header ul li>a{
     display: block;
     padding: 33px 30px;
     font-size: 30px;
@@ -183,3 +178,4 @@ footer h5{
     width: 400px;
     padding-left: 45%;
 }
+
