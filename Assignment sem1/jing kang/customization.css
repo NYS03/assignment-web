@@ -1,30 +1,42 @@
-
-body{
-    background-color:rgb(245, 232, 199);
+html{
     position: relative;
+    width: 100%;
 }
 
 
-ul{
+body{
+
+    background-color:rgb(245, 232, 199);
+    
+    
+}
+
+
+
+nav.header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(92, 61, 46);
     height: 100px;
+    width: 100%;
     border-radius: 20px;
+   
+    
 }
 
 
-li{
-    float: left; 
+nav.header ul li{
+    float: left;
+    
 } 
 
-li:hover{
+nav.header li:hover{
     background-color: rgb(134, 84, 57);
 }
 
-li > a{
+nav.header ul li > a{
     display: block;
     padding: 33px 30px;
     font-size: 30px;
@@ -33,7 +45,7 @@ li > a{
     color: whitesmoke;
 }
 
-li > a > img{
+nav.header ul li > a > img{
     display: block;
     width: 260px;
     height: 100px;
@@ -44,13 +56,14 @@ li > a > img{
 div.samples img{
     width: 33%;
    height: 500px;
+   
+
 }
 
 
 div{
     overflow: hidden;
-    margin-left: 0px;
-    margin-right: 0;
+    
 }
 
 h1 , p {
@@ -62,14 +75,115 @@ p{
     font-size: 20px;
 }
 
-div.option{
-    float: left;
+img.optioncake{
     border-radius: 30px;
     margin-left: 600px;
     margin-top: 50px;
 }
 
-div.option img{
+img.optioncake{
     width: 550px;
     height: 700px;
+}
+
+div.ContactUs{
+    width: 180px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(92, 61, 46);
+    border-top-left-radius: 10px;
+    color: whitesmoke;
+    
+
+}
+
+div.ContactUs a{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    vertical-align:5px;
+}
+
+div.ContactUs:hover{
+    background-color: rgb(134, 84, 57);
+}
+
+div.ContactUs i{
+    padding-left:10px ;
+    padding-top: 5px;
+  
+}   
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    display: block;
+}
+
+table.footer{
+    margin-left:0;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+table.footer tr th{
+    text-align: center;
+    font-size: 25px;
+}
+
+table.footer tr td{
+    text-align: left;
+    
+}
+
+table.footer tr td ul li{
+    list-style-type: none;
+}
+
+table.footer tr td ul li i>a{
+    text-decoration: none;
+    color: gray;
+}
+
+table.footer tr td ul li i>a:hover{
+    color: blue;
+}
+
+table.footer tr td ul{
+    margin: 0%;
+}
+
+table.footer tr td ul.location{
+    padding-left: 39%;
+}
+
+table.footer tr td ul.menu{
+    padding-left: 30%;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+table.footer tr td ul.moreinformation{
+    padding-left: 29%;
+    line-height: 30px;
+}
+
+table.footer tr td ul.contact{
+    padding-left: 30%;
+    line-height: 30px;
+}
+
+footer h5{
+    margin: 0%;
+    width: 400px;
+    padding-left: 45%;
 }
