@@ -133,9 +133,9 @@ footer{
 }
 
 table.footer{
-  margin-left:0;
+  margin-left: 5%;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 90px;  
   width: 80%;
   
 }
@@ -144,6 +144,10 @@ table.footer tr th{
   text-align: center;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
+  height: 30px;
+  padding: 0%;
+  margin: 0%;
+  width: 10%;
   
 }
 
@@ -155,15 +159,23 @@ table.footer tr td{
 
 table.footer tr td ul li{
   list-style-type: none;
+  float: left;
+  width: 100%;
+  display: block;
+  padding: 3px 0px;
   
 }
 
-table.footer tr td ul li i>a{
+table.footer tr td ul li >a{
   text-decoration: none;
   color: gray;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  height: 140px;
 }
 
-table.footer tr td ul li i>a:hover{
+table.footer tr td ul li >a:hover{
   color: blue;
 }
 
@@ -172,25 +184,24 @@ table.footer tr td ul{
 }
 
 table.footer tr td ul.location{
-  padding-left: 39%;
-  width: 700px;
+  padding-left: 33%;
 }
 
 table.footer tr td ul.menu{
-  float: left;
-  height: 140px;
-  font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  padding-left: 42%;
+  line-height: 150%;
 }
 
 table.footer tr td ul.moreinformation{
-  padding-left: 29%;
+  padding-left: 23%;
   line-height: 30px;
+  line-height: 150%;
 }
 
 table.footer tr td ul.contact{
-  padding-left: 30%;
+  padding-left: 36%;
   line-height: 30px;
+  line-height: 170%;
 }
 
 footer h5 i{

@@ -140,12 +140,13 @@ table.footer tr td ul li{
     list-style-type: none;
 }
 
-table.footer tr td ul li i>a{
+table.footer tr td ul li >a{
     text-decoration: none;
     color: gray;
+    font-style: italic;
 }
 
-table.footer tr td ul li i>a:hover{
+table.footer tr td ul li >a:hover{
     color: blue;
 }
 
