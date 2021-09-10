@@ -1,10 +1,5 @@
 @charset"utf-8";
 
-
-
-
-
-
 body {
     counter-reset: title;
     margin: auto;
@@ -13,9 +8,11 @@ body {
    
 }
 
-nav{
-    
+div.w_thing{
+   max-width: 980px;
+   margin: auto;
 }
+
 
     nav ul {
         list-style-type: none;
@@ -50,10 +47,6 @@ nav li:hover {
             width: 260px;
             height: 100px;
         }
-
-
-
-
 
 
 

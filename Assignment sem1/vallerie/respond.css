@@ -1,0 +1,150 @@
+
+@charset"utf-8";
+
+
+body {
+    background-color: rgb(245, 232, 199);
+    overflow: auto;
+}
+
+/*header*/
+
+nav.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(92, 61, 46);
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+    nav.header ul li {
+        float: left;
+        width: auto;
+    }
+
+nav.header li:hover {
+    background-color: rgb(134, 84, 57);
+}
+
+nav.header ul li > a {
+    display: block;
+    padding: 29px 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+    nav.header ul li > a > img {
+        display: block;
+        width: 210px;
+        height: 80px;
+    }
+
+
+/*body*/
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/*footer*/
+
+.site_footer {
+    background-color: black;
+    padding: 0;
+    left: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: gray;
+    width: 100%;
+    clear: both;
+}
+
+    .site_footer hr {
+        border-top-color: #bbb;
+        opacity: 0.5;
+        
+    }
+
+    .site_footer h6 {
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+    }
+
+    .site_footer a {
+        color: gray;
+        text-decoration: none;
+    }
+
+        .site_footer a:hover {
+            color: blue;
+            text-decoration: none;
+        }
+
+.footer_links {
+    padding-left: 0;
+    list-style: none;
+}
+
+    .footer_links li {
+        display: block;
+        padding: 0;
+
+    }
+
+    .footer_links a {
+        color: #737373;
+    }
+
+        .footer_links a:active, .footer_links a:focus, .footer_links a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+.copyright-text {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+
+div[class^="col-"] {
+    float: left;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div.col-2-5{
+    margin-left: 10%;
+    width: 30%;
+}
+
+div.col-3-10{
+    width: 30%;
+}
+
+
+
+
