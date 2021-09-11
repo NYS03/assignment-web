@@ -129,7 +129,7 @@ footer{
   left: 0px;
   z-index: -1;
   display: block;
- 
+  
 }
 
 table.footer{
@@ -137,6 +137,7 @@ table.footer{
   margin-right: auto;
   margin-top: 90px;  
   width: 80%;
+  bottom: 0%;
   
 }
 
