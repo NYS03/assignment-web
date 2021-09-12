@@ -2,16 +2,16 @@
 <html>
 <head>
     <!--
-        SHOME - About Us
-   
-   Author: SAM HEW WEI
-   Date:   30th August 2021
-   
-   Filename: banana_prod.html
-   -->
+         SHOME - About Us
+
+    Author: SAM HEW WEI
+    Date:   30th August 2021
+
+    Filename: banana_prod.html
+    -->
     <meta charset="utf-8" />
-    <title>SHOME</title>   
-    <link href="subproducts.css" rel="stylesheet"/> 
+    <title>SHOME</title>
+    <link href="subproducts.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -20,99 +20,107 @@
     <header>
         <nav class="header">
             <ul>
-                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png"></a></li>
                 <li><a href="../jing kang/home.html">Home</a></li>
                 <li><a href="../yong qi/myprofile.html">My_Profile</a></li>
                 <li><a href="../jing kang/customisation.html">Customization</a></li>
                 <li><a href="myfavourite.html">My_Favourite</a></li>
-                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </nav>
     </header>
-<br/>
 
-    <img src="banana_bread1.jpg"  alt="Banana Bread" width="200" height="300">
-    <img src="banana_bread2.jpg"  alt="Banana Bread" width="200" height="300">
-        <h2>Banana Bread (9 inch)</h2>
-        <h3>RM20.00</h3>
+
+    <img src="banana_bread1.jpg" alt="Banana Bread" width="200" height="300">
+    <img src="banana_bread2.jpg" alt="Banana Bread" width="200" height="300">
+    <div class="subpd">
         <form action="/action_page.php" method="get">
+            <label for="pname"><b>Product :</b></label>
+            <input name="products name" id="pname" type="text" size="30"
+                   value="Banana Bread (9 inch)" />
+            <br /><br />
+            <label for="pprice"><b>Price :</b></label>
+            <input name="Price" id="pprice" type="text" value="RM20.00" /><br /><br />
             <label for="type">Sweetness : </label>
-            <input type="text" id="browerstype" list="browsers" name="browerstype"  placeholder=""/>
-            <datalist id="browsers">
+            <select id="type" name="type">
                 <option value="None">None</option>
                 <option value="Standard">Standard</option>
-            </datalist><br/><br/>
-            Quantity : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            </select>
+            <br /><br />
+            Quantity : <input type="number" max="20" min="0" value="0" step="1" /><br /><br />
             <button type="reset" value="Reset">Reset</button>
             <button type="add" value="add">Add to Cart</button> <!--PHP-->
         </form>
+    </div>
+    <br />
 
-        <br/>
-        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
-        <br/><br/><hr/>
+    <article>
+        <hr />
         <p>Warmed it up. Shome's Banana Bread is a simple delicacy that you will unforgettable. Will not forget the memories shared around one of our breads. Fresh baked goods are perfect for holiday parties, birthdays and special occasions. Because when there is banana bread on the table, every moment is special.</p>
         <ul>
             <li>Size: 9 inch (1 loaf)</li>
             <li>Weight: 56g +/- (Per loaf)</li>
             <li>Pre-order: 2 Days</li>
         </ul>
-    
-        <div>
-            <div class="ContactUs">
-                <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
-            </div>
+    </article>
+
+    <div>
+        <div class="ContactUs">
+            <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
         </div>
+    </div>
 </body>
-        
- 
-     <!--Footer-->
-     <footer style="background-color: black;">
-        <table class="footer">
-            <tr>
-                <th>LOCATION</th>
-                <th>MENU</th>
-                <th>MORE INFORMATION</th>
-                <th>CONTACTS</th>
-            </tr>
-            <tr>
-                <td style="font-family: 'Times New Roman', Times, serif;">
-                    <ul class="location" style="line-height: 20px;">
-                        <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
+<br />
+
+<!--Footer-->
+<footer style="background-color: black;">
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">
+                        Lot 7.26 A&B-3, Level 3 Parkson,<br>
                         Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
                         Bukit Bintang, 55100 Kuala Lumpur,<br>
                         Wilayah Persekutuan Kuala Lumpur
-                        </i>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="menu">
-                        <li><a href="../jing kang/home.html">Home</a></li>
-                        <li><a href="myprofile.html">Profile</a></li>
-                        <li><a href="../jing kang/customisation.html">Custom cake</a></li>
-                        <li><a href="myfavourite.html">Favourite</a></li>
-                        <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="moreinformation">
-                        <li><a href="../vallerie/faq.html">FAQ</a></li>
-                        <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
-                        <li><a href="../sam/about_us.html">About Us</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="contact">
-                        <li><a href="tel:+60123456789">+6012 345 6789</a></li>
-                        <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
-                        <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
-                        <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
-                        <i class="	fa fa-twitter" style="font-size: 36px;"></i>
-                        <i class="	fa fa-instagram" style="font-size: 36px;"></i>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-            <hr>
-            <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
-    </footer>
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
 </html>
