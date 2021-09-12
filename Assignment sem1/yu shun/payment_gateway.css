@@ -2,10 +2,51 @@
 body {
     font-family: Arial;
     font-size: 17px;
-    padding: 8px;
-    background-color: #ffff99;
+    background-color: rgb(245, 232, 199);
+    
 }
 
+/*header*/
+nav.header ul{
+    list-style-type: none;
+    margin: 8px;
+    margin-right: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(92, 61, 46);
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+  
+  
+  nav.header ul li{
+    float: left;
+    width: auto;
+  } 
+  
+  nav.header li:hover{
+    background-color: rgb(134, 84, 57);
+  }
+  
+  nav.header ul li>a{
+    display: block;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 33px 30px;
+    
+  }
+  
+  nav.header ul li > a > img{
+    display: block;
+    width: 260px;
+    height: 100px;
+  }
 h2{
     color: black;
 }
@@ -96,6 +137,112 @@ span.price {
     color: grey;
 }
 
+div.ContactUs{
+    width: 180px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(92, 61, 46);
+    border-top-left-radius: 10px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+div.ContactUs a{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    vertical-align:5px;
+}
+
+div.ContactUs:hover{
+    background-color: rgb(134, 84, 57);
+}
+
+div.ContactUs i{
+    padding-left:10px ;
+    padding-top: 5px;
+  
+}
+/*footer*/
+footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    display: block;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+table.footer{
+    margin-left:0;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    font-size: 16px;
+}
+
+table.footer tr th{
+    text-align: center;
+    font-size: 25px;
+}
+
+table.footer tr td{
+    text-align: left;
+    
+}
+
+table.footer tr td ul li{
+    list-style-type: none;
+}
+
+table.footer tr td ul li >a{
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+}
+
+table.footer tr td ul li >a:hover{
+    color: blue;
+}
+
+table.footer tr td ul{
+    margin: 0%;
+}
+
+table.footer tr td ul.location{
+    padding-left: 35%;
+}
+
+table.footer tr td ul.menu{
+    padding-left: 30%;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+table.footer tr td ul.moreinformation{
+    padding-left: 29%;
+    line-height: 30px;
+}
+
+table.footer tr td ul.contact{
+    padding-left: 30%;
+    line-height: 30px;
+}
+
+footer h5{
+    margin: 0%;
+    width: 100%;
+    padding-left: 45%;
+    font-size: 83%;
+}
+
 @media (max-width: 800px) {
     .row {
         flex-direction: column-reverse;
@@ -105,3 +252,4 @@ span.price {
         margin-bottom: 20px;
     }
 }
+
