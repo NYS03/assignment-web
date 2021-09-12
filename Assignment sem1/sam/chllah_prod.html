@@ -2,17 +2,23 @@
 <html>
 <head>
     <!--
-        SHOME - About Us
-   
-   Author: SAM HEW WEI
-   Date:   30th August 2021
-   
-   Filename: challah_prod.html
-   -->
+         SHOME - About Us
+
+    Author: SAM HEW WEI
+    Date:   30th August 2021
+
+    Filename: challah_prod.html
+    -->
     <meta charset="utf-8" />
-    <title>SHOME</title>   
-    <link href="subproducts.css" rel="stylesheet"/> 
+    <title>SHOME</title>
+    <link href="subproducts.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .challahimg {
+            position: relative;
+            bottom: -100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,104 +26,111 @@
     <header>
         <nav class="header">
             <ul>
-                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png"></a></li>
                 <li><a href="../jing kang/home.html">Home</a></li>
                 <li><a href="../yong qi/myprofile.html">My_Profile</a></li>
                 <li><a href="../jing kang/customisation.html">Customization</a></li>
                 <li><a href="myfavourite.html">My_Favourite</a></li>
-                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </nav>
     </header>
-<br/>
+    <br />
 
-    <img src="challah.jpeg"  alt="Challah" width="200" height="300">
-    <img src="challah1.jpg"  alt="Challah" width="300" height="200">
-        <h2>Twist Challah</h2>
-        <h3>RM7.00</h3>
+    <img src="challah.jpeg" alt="Challah" width="200" height="300">
+    <img class="challahimg" src="challah1.jpg" alt="Challah" width="300" height="200">
+    <div class="subpd">
         <form action="/action_page.php" method="get">
-            <label for="type">Type : </label>
-            <input type="text" id="browerstype" list="browsers" name="browerstype"  placeholder=""/>
-            <datalist id="browsers">
-                <option value="Classic">Classic Poppyseed</option>
-                <option value="Original">Original</option>
-            </datalist><br/><br/>
-            Quantity : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            <label for="pname"><b>Product :</b></label>
+            <input type="text" id="pname" name="products name" size="30" value="Twist Challah (1 challah)" />
+            <br /><br />
+            <label for="pprice"><b>Price :</b></label>
+            <input name="Price" id="pprice" type="text" value="RM7.00" /><br /><br />
+            <label for="type">Flavors : </label>
+            <select id="type" name="type">
+                <option value="original">Original</option>
+                <option value="classic">Classic Poppyseed</option>
+            </select>
+            <br /><br />
+            Quantity : <input type="number" max="20" min="0" value="0" step="1" /><br /><br />
             <button type="reset" value="Reset">Reset</button>
             <button type="add" value="add">Add to Cart</button> <!--PHP-->
         </form>
+    </div>
 
-        <br/>
-        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
-        <br/><br/><hr/>
-        <p>Our 20 year old recipe, braided and twisted into the traditional ceremonial challah shape, with poppyseeds on top.
-        Classic's Allergen: Wheat, Eggs, Soy, Treenuts (Poppyseeds)
-        Original's Allergens: Wheat, Eggs, Soy.
+    <article>
+        <br /><hr />
+        <p>
+            Our 20 year old recipe, braided and twisted into the traditional ceremonial challah shape, with poppyseeds on top.
+            Classic's Allergen: Wheat, Eggs, Soy, Treenuts (Poppyseeds)
+            Original's Allergens: Wheat, Eggs, Soy.
         </p>
         <ul>
             <li>Size: 1.5lb (1 challah)</li>
             <li>Weight: 680g +/- (Per challah)</li>
             <li>Pre-order: 2 Days</li>
         </ul>
-    
-        <div>
-            <div class="ContactUs">
-                <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
-            </div>
+    </article>
+
+    <div>
+        <div class="ContactUs">
+            <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
         </div>
+    </div>
 </body>
-        
- 
-     <!--Footer-->
-     <footer style="background-color: black;">
-        <table class="footer">
-            <tr>
-                <th>LOCATION</th>
-                <th>MENU</th>
-                <th>MORE INFORMATION</th>
-                <th>CONTACTS</th>
-            </tr>
-            <tr>
-                <td style="font-family: 'Times New Roman', Times, serif;">
-                    <ul class="location" style="line-height: 20px;">
-                        <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
+<br />
+
+<!--Footer-->
+<footer style="background-color: black;">
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">
+                        Lot 7.26 A&B-3, Level 3 Parkson,<br>
                         Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
                         Bukit Bintang, 55100 Kuala Lumpur,<br>
                         Wilayah Persekutuan Kuala Lumpur
-                        </i>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="menu">
-                        <li><a href="../jing kang/home.html">Home</a></li>
-                        <li><a href="myprofile.html">Profile</a></li>
-                        <li><a href="../jing kang/customisation.html">Custom cake</a></li>
-                        <li><a href="myfavourite.html">Favourite</a></li>
-                        <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="moreinformation">
-                        <li><a href="../vallerie/faq.html">FAQ</a></li>
-                        <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
-                        <li><a href="../sam/about_us.html">About Us</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="contact">
-                        <li><a href="tel:+60123456789">+6012 345 6789</a></li>
-                        <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
-                        <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
-                        <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
-                        <i class="	fa fa-twitter" style="font-size: 36px;"></i>
-                        <i class="	fa fa-instagram" style="font-size: 36px;"></i>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-            <hr>
-            <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
-    </footer>
-    
-    
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
+
+
 </html>

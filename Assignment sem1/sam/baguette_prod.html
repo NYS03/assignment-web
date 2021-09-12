@@ -2,16 +2,16 @@
 <html>
 <head>
     <!--
-        SHOME - About Us
-   
-   Author: SAM HEW WEI
-   Date:   30th August 2021
-   
-   Filename: baguette_prod.html
-   -->
+         SHOME - About Us
+
+    Author: SAM HEW WEI
+    Date:   30th August 2021
+
+    Filename: baguette_prod.html
+    -->
     <meta charset="utf-8" />
-    <title>SHOME | Baguette</title>   
-    <link href="subproducts.css" rel="stylesheet"/> 
+    <title>SHOME | Baguette</title>
+    <link href="subproducts.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -20,31 +20,38 @@
     <header>
         <nav class="header">
             <ul>
-                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png"></a></li>
                 <li><a href="../jing kang/home.html">Home</a></li>
                 <li><a href="../yong qi/myprofile.html">My_Profile</a></li>
                 <li><a href="../jing kang/customisation.html">Customization</a></li>
                 <li><a href="myfavourite.html">My_Favourite</a></li>
-                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+                <li style="float: right;"><a>Your_Cart<i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </nav>
     </header>
-<br/>
+    <br />
 
-    <img src="baguette1.jpg"  alt="Baguette" width="200" height="300">
-    <img src="baguette.jpeg"  alt="Baguette" width="200" height="300">
-        <h2>Baguette (2 pieces per pack)</h2>
-        <h3>RM10.00</h3>
+    <img src="baguette1.jpg" alt="Baguette" width="200" height="300">
+    <img src="baguette.jpeg" alt="Baguette" width="200" height="300">
+
+    <div class="subpd">
         <form action="/action_page.php" method="get">
-            Quantity (Pack) : <input type="number" max="20"  min="0" value="0" step="1"/><br/><br/>
+            <label for="pname"><b>Product :</b></label>
+            <input type="text" id="pname" name="products name" size="30" value="Baguette (2 pieces per pack)" />
+            <br /><br />
+            <label for="pprice"><b>Price :</b></label>
+            <input name="Price" id="pprice" type="text" value="RM10.00" /><br /><br />
+            Quantity : <input type="number" max="20" min="0" value="0" step="1" /><br /><br />
             <button type="reset" value="Reset">Reset</button>
             <button type="add" value="add">Add to Cart</button> <!--PHP-->
         </form>
+    </div>
+    <br />
 
-        <br/>
-        <a href="myfavourite.html">Add to Cart</a></li> <!--Add link-->
-        <br/><br/><hr/>
-        <p>Baguette which is also known as "French Loaf" is fresh, warm and delicious. Usually served with butter or cheese dunked in bowls of soup,coffee or hot chocolate a perfect combinations. 5 days shelf life to keep in a dry place. 
+    <article>
+        <hr />
+        <p>
+            Baguette which is also known as "French Loaf" is fresh, warm and delicious. Usually served with butter or cheese dunked in bowls of soup,coffee or hot chocolate a perfect combinations. 5 days shelf life to keep in a dry place.
         </p>
         <ul>
             <li>Size: 2 to 3 inches</li>
@@ -53,61 +60,63 @@
         </ul>
         <div>
             <div class="ContactUs">
-                <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
+                <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
             </div>
         </div>
+    </article>
 </body>
- 
-    <!--Footer-->
-    <footer style="background-color: black;">
-        <table class="footer">
-            <tr>
-                <th>LOCATION</th>
-                <th>MENU</th>
-                <th>MORE INFORMATION</th>
-                <th>CONTACTS</th>
-            </tr>
-            <tr>
-                <td style="font-family: 'Times New Roman', Times, serif;">
-                    <ul class="location" style="line-height: 20px;">
-                        <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
+<br />
+<!--Footer-->
+<footer style="background-color: black;">
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">
+                        Lot 7.26 A&B-3, Level 3 Parkson,<br>
                         Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
                         Bukit Bintang, 55100 Kuala Lumpur,<br>
                         Wilayah Persekutuan Kuala Lumpur
-                        </i>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="menu">
-                        <li><a href="../jing kang/home.html">Home</a></li>
-                        <li><a href="myprofile.html">Profile</a></li>
-                        <li><a href="../jing kang/customisation.html">Custom cake</a></li>
-                        <li><a href="myfavourite.html">Favourite</a></li>
-                        <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="moreinformation">
-                        <li><a href="../vallerie/faq.html">FAQ</a></li>
-                        <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
-                        <li><a href="../sam/about_us.html">About Us</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="contact">
-                        <li><a href="tel:+60123456789">+6012 345 6789</a></li>
-                        <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
-                        <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
-                        <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
-                        <i class="	fa fa-twitter" style="font-size: 36px;"></i>
-                        <i class="	fa fa-instagram" style="font-size: 36px;"></i>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-            <hr>
-            <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
-    </footer>
-    
-    
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
+
+
 </html>
