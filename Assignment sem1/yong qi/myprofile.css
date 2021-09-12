@@ -9,6 +9,7 @@ html{
 body{
   background-color:rgb(245, 232, 199);
   margin: 8px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -119,6 +120,37 @@ p{
   text-align: center;
   bottom: 0;
 }
+
+div.ContactUs{
+  width: 180px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgb(92, 61, 46);
+  color: whitesmoke;
+  padding: 0%;
+  border-radius: 0%;
+  border-top-left-radius: 10px;
+}
+
+div.ContactUs a{
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+  vertical-align:5px;
+}
+
+div.ContactUs:hover{
+  background-color: rgb(134, 84, 57);
+}
+
+div.ContactUs i{
+  padding-left:10px ;
+  padding-top: 5px;
+
+}
 /*footer*/
 footer{
   width: 100%;
@@ -185,7 +217,7 @@ table.footer tr td ul{
 }
 
 table.footer tr td ul.location{
-  padding-left: 33%;
+  padding-left: 25%;
 }
 
 table.footer tr td ul.menu{
