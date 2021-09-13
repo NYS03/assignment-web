@@ -43,13 +43,14 @@ nav.header ul li > a {
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    padding: 27px 30px;
+    padding: 33px 30px;
 }
 
     nav.header ul li > a > img {
         display: block;
         width: 260px;
         height: 100px;
+        padding: 0px;
     }
 
 /*Sub products*/
