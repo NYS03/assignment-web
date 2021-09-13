@@ -61,7 +61,11 @@ img {
     width: auto;
     padding: 2% 1% 1% 2%;
 }
-
+button.myfav{
+    position: relative;
+    bottom:-1px;
+    height: 21px;
+}
 .subpd {
     clear: left;
     padding-top: 1%;
@@ -76,6 +80,9 @@ article {
 @media only screen and (max-width: 570px) {
     img {
         width: 45%;
+    }
+    img.ficon{
+        width: auto;
     }
 
     .subpd {
