@@ -9,15 +9,13 @@ body {
 /*header*/
 nav.header ul{
     list-style-type: none;
-    margin: 8px;
-    margin-right: 0px;
     padding: 0;
     overflow: hidden;
     background-color: rgb(92, 61, 46);
     height: 100px;
     width: 100%;
     border-radius: 20px;
-    margin-left: 8px;
+    margin-top: 8px;
   }
   
   
@@ -77,6 +75,7 @@ h2{
     -ms-flex: 75%; 
     flex: 75%;
 }
+
 
 .col-3, .col-2, .col-1 {
     padding: 0 16px;
