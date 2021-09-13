@@ -1,8 +1,13 @@
 
 @charset"utf-8";
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
 body {
     margin: auto;
     background-color: rgb(245, 232, 199);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*header*/
