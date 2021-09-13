@@ -74,6 +74,62 @@ table tr td a img{
     margin: 100px 50px 10px
 }
 
+div>h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size :50px;
+}
+
+table.recipe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.recipe tr th img{
+    width: 100%;
+    height: 450px;
+    border-radius: 2%;
+}
+
+table.recipe tr td h2{
+    margin: 0px;
+    display: block;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+table.recipe tr.button td{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+table.recipe tr td button{
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(92, 61, 46);
+    transition-duration: 0.5s;
+}
+
+table.recipe tr td button a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+table.recipe tr td button a:hover{
+    color:white;
+}
+
+table.recipe tr td button:hover{
+    
+    background-color:rgb(134, 84, 57);
+}
+
 
 div.ContactUs{
     width: 180px;
@@ -83,8 +139,6 @@ div.ContactUs{
     background-color: rgb(92, 61, 46);
     border-top-left-radius: 10px;
     color: whitesmoke;
-    
-
 }
 
 div.ContactUs a{
