@@ -7,8 +7,8 @@
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
     <link href="myprofile.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
     <script src="mp_formsubmit.js"></script>
+    
 </head>
 <body>
     <header>
@@ -27,7 +27,7 @@
 
     <h2>MY PROFILE</h2>
     <div class="bg-img">
-        <form action="/action_page.php" class="container" method="get">
+        <form id="form" action="../jing kang/home.html" class="container" method="get">
             <label for="fname"> &#127872; <b>Name:</b></label><br>
             <input type="text" id="fname" name="fname" placeholder="Type your full name"><br>
 
@@ -59,10 +59,10 @@
             <input type="email" id="femail" name="femail" placeholder="Type your email address" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" placeholder="Type your password"><br>
-            <button type="submit" class="btn">Login</button>
+            <input type="password" id="psw" name="psw" placeholder="Type your password" required><br>
+            <button type="submit" class="btn" value="Login" onclick="setForm()">Login</button>
         </form>
-        <p>Enter your details,and click the "Login" button to login your profile</p>
+        <p>Enter your details, and click the "Login" button to login your profile</p>
     </div>
     <div>
         <div class="ContactUs">
