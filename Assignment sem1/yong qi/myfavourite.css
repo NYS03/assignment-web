@@ -63,13 +63,21 @@ h1{
   color:rgb(163, 96, 7)
 }
 
-
+@keyframes colorchange{
+  0%{color:blue;}
+  50%{color: aqua;}
+  100%{color: cadetblue;}
+}
 
 h2{
     font-family: monospace;
     color: chocolate;
     padding: 20px;
     text-align: center;
+    animation-name:colorchange;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 table{
     position:relative;

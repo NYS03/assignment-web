@@ -59,8 +59,8 @@
             <input type="email" id="femail" name="femail" placeholder="Type your email address" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" placeholder="Type your password" required><br>
-            <button type="submit" class="btn" value="Login" onclick="setForm()">Login</button>
+            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Type your password (must contain more than 8 characters)" required><br>
+            <input type="submit" class="btn" value="Login">
         </form>
         <p>Enter your details, and click the "Login" button to login your profile</p>
     </div>
