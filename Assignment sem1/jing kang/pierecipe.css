@@ -49,13 +49,14 @@ nav.header ul li > a > img{
     height: 100px;
 }
 
-img.cake{
-    width: 30%;
-    height: 900px;
+img.pie{
+    width: 28%;
+    height:900px;
     margin-left: 25%;
     margin-top: 50px;
     border-radius: 10%;
 }
+
 
 div.ingredients{
     float: right;
@@ -97,11 +98,14 @@ div.Steps ol li{
 
 h1{
     font-size: 45px;
-    margin-left: 35%;
+    text-align: center;
+    margin-top: 100px;
 }
 
 video{
-    padding-left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 div.ContactUs{
