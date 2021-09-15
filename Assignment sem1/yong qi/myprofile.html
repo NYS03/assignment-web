@@ -25,11 +25,11 @@
     </header>
     <br>
 
-    <h2>MY PROFILE</h2>
+    <h1>MY PROFILE</h1>
     <div class="bg-img">
         <form id="form" action="../jing kang/home.html" class="container" method="get">
             <label for="fname"> &#127872; <b>Name:</b></label><br>
-            <input type="text" id="fname" name="fname" placeholder="Type your full name"><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
 
             <label for="fname">&#127874; <b>Birth date:</b></label><br>
             <input type="date" id="fbirth" name="fbirth" max="2005-12-31"><br><br>
@@ -53,15 +53,17 @@
             </datalist><br>
 
             <label for="phone"> &#128222; <b>Phone Number:</b></label><br>
-            <input type="tel" id="phone" name="phone" placeholder="Type your phone number" required><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (012-3456789)" required><br>
 
             <label for="femail"> &#128231; <b>Email Address:</b></label><br>
-            <input type="email" id="femail" name="femail" placeholder="Type your email address" required><br>
+            <input type="email" id="femail" name="femail" placeholder="Enter your email address (must contain @ )" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Type your password (must contain more than 8 characters)" required><br>
+            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Enter your password (must contain more than 8 characters)" required><br>
+
             <input type="submit" class="btn" value="Login">
         </form>
+
         <p>Enter your details, and click the "Login" button to login your profile</p>
     </div>
     <div>

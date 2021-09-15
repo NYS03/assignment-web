@@ -54,10 +54,19 @@ nav.header ul li > a > img{
   height: 100px;
 }
 
+@keyframes colorchange{
+  0%{color:brown;}
+  50%{color:rgb(231, 98, 98);}
+  100%{color: rgb(241, 148, 71);}
+}
+
 h1{
   text-align: center;
-  font-family:fantasy;
-  color:rgb(163, 96, 7)
+  font-family:cursive;
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 li{
