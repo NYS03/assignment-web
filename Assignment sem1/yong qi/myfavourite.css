@@ -30,10 +30,21 @@ h1{
 p{
   text-align: center;
 }
+
+p2{
+  font-size: 20px;
+}
+
 input[type="submit"]{
   text-align: center;
   margin: auto;
   display:flex;
+}
+
+.lgn{
+  color: white;
+  background-color: black;
+  border: none;
 }
 
 
