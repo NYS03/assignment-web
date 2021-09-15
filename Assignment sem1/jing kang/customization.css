@@ -22,8 +22,6 @@ nav.header ul{
     height: 100px;
     width: 100%;
     border-radius: 20px;
-   
-    
 }
 
 
@@ -56,7 +54,7 @@ nav.header ul li > a > img{
 div.samples img{
     width: 33%;
    height: 500px;
-   
+   margin-top: 1%;
 
 }
 
@@ -77,14 +75,44 @@ p{
 
 img.optioncake{
     border-radius: 30px;
-    margin-left: 600px;
+    margin-left: 20%;
     margin-top: 50px;
+    width: 25%;
+    height: 750px;
 }
 
-img.optioncake{
-    width: 550px;
+div.selection{
+    float: right;
+    width: 40%;
     height: 700px;
+    margin: 100px 8% 0 0;
+    overflow: hidden;
 }
+label{
+    float: left;
+    font-size: 31px;
+}
+
+select{
+    margin-top: 2%;
+}
+
+input{
+    margin-top: 2%;
+}
+ textarea{
+     margin-top: 2%;
+ }
+
+ div.mid{
+     margin-bottom: 5%;
+ }
+
+ input#submit{
+     width: 15%;
+     height: 5%;
+     font-size: 20px;
+ }  
 
 div.ContactUs{
     width: 180px;
