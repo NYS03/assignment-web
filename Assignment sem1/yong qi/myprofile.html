@@ -7,7 +7,7 @@
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
     <link href="myprofile.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="mp_formsubmit.js" defer></script>
+    <script src="mp_formsubmit.js" ></script>
     
 </head>
 <body>
@@ -27,7 +27,7 @@
 
     <h1>MY PROFILE</h1>
     <div class="bg-img">
-        <form id="form" action="../yu shun/addtocart.html" class="container" method="get">
+        <form name="form" action="../yu shun/addtocart.html" class="container" method="get" onsubmit="return init()">
             <label for="fname"> &#127872; <b>Name:</b></label><br>
             <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
 
