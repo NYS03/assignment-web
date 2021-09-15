@@ -94,13 +94,17 @@ div.Steps ol li{
 }
 
 
+
 h1{
     font-size: 45px;
-    margin-left: 35%;
+    text-align: center;
+    margin-top: 100px;
 }
 
 video{
-    padding-left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 div.ContactUs{

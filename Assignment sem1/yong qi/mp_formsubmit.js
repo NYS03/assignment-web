@@ -1,8 +1,8 @@
-window.onload=setForm;
+window.onload = init;
 
-function setForm(){
-    document.form[0].onsubmit=function(){
-        if(this.checkValidity()) alert("Successful login your profile. Please enjoy on your purchasing");
+function init() {
+    document.form[0].onsubmit=function() {
+        if (this.checkValidity()) alert("Successful login your profile. Please enjoy on your purchasing");
         document.getElementById("form").reset();
         return true;
     }

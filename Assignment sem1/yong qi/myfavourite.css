@@ -12,9 +12,41 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 
-* {
-  box-sizing: border-box;
+@keyframes colorchange{
+  0%{color:blue;}
+  50%{color: aqua;}
+  100%{color: cadetblue;}
 }
+
+h1{
+    font-family:cursive;
+    padding: 20px;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+p{
+  text-align: center;
+}
+
+p2{
+  font-size: 20px;
+}
+
+input[type="submit"]{
+  text-align: center;
+  margin: auto;
+  display:flex;
+}
+
+.lgn{
+  color: white;
+  background-color: black;
+  border: none;
+}
+
 
 /*header*/
 nav.header ul{
@@ -53,43 +85,6 @@ nav.header ul li > a > img{
   display: block;
   width: 260px;
   height: 100px;
-
-  
-}
-
-h1{
-  text-align: center;
-  font-family:fantasy;
-  color:rgb(163, 96, 7)
-}
-
-@keyframes colorchange{
-  0%{color:blue;}
-  50%{color: aqua;}
-  100%{color: cadetblue;}
-}
-
-h2{
-    font-family: monospace;
-    color: chocolate;
-    padding: 20px;
-    text-align: center;
-    animation-name:colorchange;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-table{
-    position:relative;
-    margin: auto;
-    width: 1280px;
-    padding: 16px;
-}
-th,td{
-    border:1px solid black;
-    text-align: center;
-    width: 25%;
-    background-color:rgb(179, 207, 226);
 }
 
 div.ContactUs{

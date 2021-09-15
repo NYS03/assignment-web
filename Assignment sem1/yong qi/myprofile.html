@@ -7,7 +7,7 @@
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
     <link href="myprofile.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="mp_formsubmit.js"></script>
+    <script src="mp_formsubmit.js" defer></script>
     
 </head>
 <body>
@@ -25,14 +25,14 @@
     </header>
     <br>
 
-    <h2>MY PROFILE</h2>
+    <h1>MY PROFILE</h1>
     <div class="bg-img">
-        <form id="form" action="../jing kang/home.html" class="container" method="get">
+        <form id="form" action="../yu shun/addtocart.html" class="container" method="get">
             <label for="fname"> &#127872; <b>Name:</b></label><br>
-            <input type="text" id="fname" name="fname" placeholder="Type your full name"><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
 
             <label for="fname">&#127874; <b>Birth date:</b></label><br>
-            <input type="date" id="fbirth" name="fbirth" max="2005-12-31"><br><br>
+            <input type="date" id="fbirth" name="fbirth" max="2005-12-31"><br>
 
             <label for="fstate">&#127758; <b>State:</b></label><br>
             <input type="text" list="browsers" name="browsertype" id="browsertype" placeholder="Selangor">
@@ -53,15 +53,17 @@
             </datalist><br>
 
             <label for="phone"> &#128222; <b>Phone Number:</b></label><br>
-            <input type="tel" id="phone" name="phone" placeholder="Type your phone number" required><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (012-3456789)" required><br>
 
             <label for="femail"> &#128231; <b>Email Address:</b></label><br>
-            <input type="email" id="femail" name="femail" placeholder="Type your email address" required><br>
+            <input type="email" id="femail" name="femail" placeholder="Enter your email address (must contain @ )" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Type your password (must contain more than 8 characters)" required><br>
+            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Enter your password (must contain more than 8 characters)" required><br>
+
             <input type="submit" class="btn" value="Login">
         </form>
+
         <p>Enter your details, and click the "Login" button to login your profile</p>
     </div>
     <div>
