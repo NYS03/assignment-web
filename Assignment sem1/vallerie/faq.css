@@ -50,8 +50,12 @@ nav.header ul li > a > img{
 }
 
 
-
-
+/*body*/
+div.faq_div{
+    display: block;
+    max-width:980px;
+    margin: auto;
+}
 
 h1 {
     display: block;
@@ -68,10 +72,11 @@ table {
     font-size: 20px;
 }
 
-table tr td >a {
-    text-decoration: none;
-    font-weight: bold;
-}
+    table tr td > a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #5c3d2e;
+    }
 
 a:hover, a:visited {
     color: #5c3d2e;
@@ -81,11 +86,19 @@ div#product, div#payment, div#delivery, div#storage{
     margin-bottom: 100px;
 }
 
+p {
+    display: none;
+}
+
 h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
     color: #5c3d2e;
+}
+
+hr {
+    color: black;
 }
 
 .ques_box {
@@ -95,8 +108,12 @@ h2 {
 
 h3 {
     cursor: pointer;
-    color: rgb(67,68,69)
+    color: #e67300;
 }
+
+
+
+
 
 div.ContactUs{
     width: 180px;

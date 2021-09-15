@@ -1,6 +1,7 @@
 @charset "utf-8";
-html{
+html {
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-div.contactus{
+div.whole{
     max-width: 960px;
     min-width: 640px;
     margin: auto;
@@ -57,8 +58,14 @@ nav.header ul{
     height: 100px;
   }
 
+  /*body*/
+
 h1, h3, p {
     text-align: center;
+}
+
+h1{
+    margin-top: 50px;
 }
 
 p {
@@ -67,9 +74,10 @@ p {
 }
 
 div.contactUsForm {
+    float: left;
     display: block;
-    width: 80%;
-    margin: auto;
+    width: 50%;
+    margin-left: 2%;
 }
 
 input, select, textarea {
@@ -108,9 +116,9 @@ button[type=submit] {
     width: 130px;
     height: 50px;
     border: none;
-    background-color: rgba(255,203,147,255);
+    background-color: rgba(255,141,18);
     border-radius: 5px;
-    margin: auto;
+    margin: auto auto 100px;
     cursor: pointer;
 }
 
@@ -126,11 +134,6 @@ input[type="file"] {
     border: none;
 }
 
-input:focus:invalid {
-    background: rgb(255,232,233) url(error.jpg) bottom right no-repeat;
-}
-
-
 div.ContactUs{
     width: 180px;
     position: fixed;
@@ -139,8 +142,6 @@ div.ContactUs{
     background-color: rgb(92, 61, 46);
     border-top-left-radius: 10px;
     color: whitesmoke;
-    
-
 }
 
 div.ContactUs a{
@@ -161,8 +162,22 @@ div.ContactUs i{
     padding-top: 5px;
   
 }
+
+div.extra{
+    float: left;
+    margin-left: 10%;
+}
+
+div.extra a {
+    line-height: 50px;
+    text-decoration: none;
+}
+
+
+
 /*footer*/
 footer{
+    bottom: 0;
     width: 100%;
     background-color: black;
     color: whitesmoke;

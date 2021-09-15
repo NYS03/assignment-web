@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Shome | Contact Us</title>
     <meta charset="utf-8" />
@@ -9,16 +10,17 @@
 <header>
     <nav class="header">
         <ul>
-            <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+            <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png"></a></li>
             <li><a href="../jing kang/home.html">Home</a></li>
             <li><a href="../jing kang/customisation.html">Customization</a></li>
             <li><a href="../yong qi/myfavourite.html">My_Favourite</a></li>
             <li style="float: right;"><a href="../yong qi/myprofile.html">Login</a></li>
-            <li style="float: right;"><a href="../yu shun/addtocart.html">Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+            <li style="float: right;"><a href="../yu shun/addtocart.html">Your_Cart<i class="fa fa-shopping-cart"></i></a></li>
         </ul>
     </nav>
 </header>
 <body>
+    <div class="whole">
     <div class="contactus">
         <div class="banner">
             <h1>CONTACT US</h1>
@@ -41,27 +43,27 @@
                 </div>
                 <div class="cuformT" id="f_first_name">
                     <label for="first_name">First Name<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="text" name="first_name" id="first_name" required /><br><br>
+                    <input type="text" name="first_name" id="first_name" required pattern="[a-zA-Z ]{2,}" /><br><br>
                 </div>
                 <div class="cuformT" id="f_last_name">
                     <label for="last_name">Last Name<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="text" name="last_name" id="last_name" required /><br><br>
+                    <input type="text" name="last_name" id="last_name" required pattern="[a-zA-Z ]{2,}" /><br><br>
                 </div>
                 <div class="cuformT" id="f_email">
                     <label for="email">Email<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="email" name="email" id="email" required /><br><br>
+                    <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /><br><br>
                 </div>
                 <div class="cuformT" id="f_phone">
                     <label for="phone">Phone<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="tel" name="phone" id="phone" required /><br><br>
+                    <input type="tel" name="phone" id="phone" required pattern="[0-9-]{19,12}" /><br><br>
                 </div>
                 <div class="cuformT" id="f_address">
                     <label for="address">Address<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="text" name="address" id="address" required /><br><br>
+                    <input type="text" name="address" id="address" required pattern="[a-z0-9._%+- ]{10,}" /><br><br>
                 </div>
                 <div class="cuformT" id="f_city">
                     <label for="city">City<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="text" name="city" id="city" required /><br><br>
+                    <input type="text" name="city" id="city" required pattern="[a-zA-Z ]{2,}" /><br><br>
                 </div>
                 <div class="cuformT" id="f_state">
                     <label for="state">State<span class="fsRequiredMarker">*</span></label><br />
@@ -87,7 +89,7 @@
                 </div>
                 <div class="cuformT" id="f_postal">
                     <label for="postal">Postal Code<span class="fsRequiredMarker">*</span></label><br />
-                    <input type="text" name="postal" id="postal" pattern="^\d{5}$" required /><br><br>
+                    <input type="text" name="postal" id="postal" pattern="[0-9 ]{5}" required /><br><br>
                 </div>
                 <div class="cuformT" id="f_message">
                     <label for="details">Please provide details on issue or question:<span class="fsRequiredMarker">*</span></label><br />
@@ -98,13 +100,21 @@
                     <input type="file" name="support_doc" id="support_doc" multiple><br /><br />
                 </div>
                 <button class="submit" type="submit">Submit</button>
-            
+
             </form>
         </div>
     </div>
+    <div class="extra">
+        <h1>Holiday</h1>
+        <i class="fa fa-phone" style="font-size:24px"><a href="tel:+60123456789">&nbsp;&nbsp; +6012 345 6789</a><br /></i>
+        <br />
+        <i class="fa fa-envelope" style="font-size:24px"><a href="mailto:SHOME@gmail.com">&nbsp;&nbsp; Shome@gmail.com</a></i>
+
+    </div>
+    </div>
     <div>
         <div class="ContactUs">
-            <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
+            <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
         </div>
     </div>
     <footer>
@@ -118,10 +128,11 @@
             <tr>
                 <td style="font-family: 'Times New Roman', Times, serif;">
                     <ul class="location" style="line-height: 20px;">
-                        <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
-                        Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
-                        Bukit Bintang, 55100 Kuala Lumpur,<br>
-                        Wilayah Persekutuan Kuala Lumpur
+                        <i style="color: gray;">
+                            Lot 7.26 A&B-3, Level 3 Parkson,<br>
+                            Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
+                            Bukit Bintang, 55100 Kuala Lumpur,<br>
+                            Wilayah Persekutuan Kuala Lumpur
                         </i>
                     </ul>
                 </td>
@@ -153,7 +164,9 @@
                 </td>
             </tr>
         </table>
-            <hr>
-            <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+        <hr>
+        <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
     </footer>
+    <script src="contact.js"></script>
 </body>
+</html>
