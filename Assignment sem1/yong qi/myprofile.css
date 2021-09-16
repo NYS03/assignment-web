@@ -35,14 +35,11 @@ nav.header li:hover{
 
 nav.header ul li>a{
   display: block;
-  padding: 0;
+  padding: 33px 30px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
   color: whitesmoke;
-  font-family: 'Times New Roman', Times, serif;
-  padding: 27px 30px;
-  
 }
 
 nav.header ul li > a > img{
@@ -51,6 +48,7 @@ nav.header ul li > a > img{
   height: 100px;
 }
 
+/*my profile*/
 @keyframes colorchange{
   0%{color:brown;}
   50%{color:rgb(231, 98, 98);}
@@ -82,7 +80,7 @@ li{
   position: relative;
 }
 
-/* Add styles to the form container */
+/* container */
 .container {
   position:relative;
   margin: auto;
@@ -100,7 +98,7 @@ input[type=text], input[type=password], input[type=date], input[type=tel], input
   background: #f1f1f1;
 }
 
-/* Set a style for the submit button */
+/* submit button */
 .btn {
   background-color: #04AA6D;
   color: white;
@@ -121,6 +119,7 @@ div {
   opacity: 1;
 }
 
+/*footer*/
 div.ContactUs{
   width: 180px;
   position: fixed;
@@ -161,7 +160,6 @@ footer{
   left: 0px;
   z-index: -1;
   display: block;
-  
 }
 
 table.footer{
@@ -170,7 +168,6 @@ table.footer{
   margin-top: 90px;  
   width: 80%;
   bottom: 0%;
-  
 }
 
 table.footer tr th{
@@ -181,13 +178,11 @@ table.footer tr th{
   padding: 0%;
   margin: 0%;
   width: 10%;
-  
 }
 
 table.footer tr td{
   text-align: left;
   height: 142px;
-  
 }
 
 table.footer tr td ul li{
@@ -196,7 +191,6 @@ table.footer tr td ul li{
   width: 100%;
   display: block;
   padding: 3px 0px;
-  
 }
 
 table.footer tr td ul li >a{
