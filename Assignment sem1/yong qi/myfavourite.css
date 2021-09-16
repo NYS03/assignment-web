@@ -6,12 +6,48 @@ html{
   font-family: 'Times New Roman', Times, serif;
 }
 
-
 body{
   background-color:rgb(245, 232, 199);
   font-family: 'Times New Roman', Times, serif;
 }
 
+/*header*/
+nav.header ul{
+  list-style-type: none;
+  margin: 8px 8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(92, 61, 46);
+  height: 100px;
+  width: 99%;
+  border-radius: 20px; 
+}
+
+nav.header ul li{
+  float: left;
+  width: auto;
+} 
+
+nav.header li:hover{
+  background-color: rgb(134, 84, 57);
+}
+
+nav.header ul li>a{
+  display: block;
+  padding: 27px 30px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav.header ul li > a > img{
+  display: block;
+  width: 260px;
+  height: 100px;
+}
+
+/*my favourite*/
 @keyframes colorchange{
   0%{color:blue;}
   50%{color: aqua;}
@@ -19,13 +55,13 @@ body{
 }
 
 h1{
-    font-family:cursive;
-    padding: 20px;
-    text-align: center;
-    animation-name: colorchange;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  text-align: center;
+  font-family:cursive;
+  padding: 20px;
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 p{
   text-align: center;
@@ -47,46 +83,7 @@ input[type="submit"]{
   border: none;
 }
 
-
-/*header*/
-nav.header ul{
-  list-style-type: none;
-  margin: 8px 8px;
-
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(92, 61, 46);
-  height: 100px;
-  width: 99%;
-  border-radius: 20px; 
-}
-
-
-nav.header ul li{
-  float: left;
-  width: auto;
-} 
-
-nav.header li:hover{
-  background-color: rgb(134, 84, 57);
-}
-
-nav.header ul li>a{
-  display: block;
-  padding: 27px 30px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  color: whitesmoke;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-nav.header ul li > a > img{
-  display: block;
-  width: 260px;
-  height: 100px;
-}
-
+/*footer*/
 div.ContactUs{
   width: 180px;
   position: fixed;
@@ -95,8 +92,6 @@ div.ContactUs{
   background-color: rgb(92, 61, 46);
   border-top-left-radius: 10px;
   color: whitesmoke;
-  
-
 }
 
 div.ContactUs a{
@@ -115,13 +110,10 @@ div.ContactUs:hover{
 div.ContactUs i{
   padding-left:10px ;
   padding-top: 5px;
-
 }
 
 /*footer*/
 footer{
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: black;
   color: whitesmoke;
@@ -130,7 +122,6 @@ footer{
   left: 0px;
   z-index: -1;
   display: block;
-  
 }
 
 table.footer{
@@ -139,7 +130,6 @@ table.footer{
   margin-top: 90px;  
   width: 80%;
   bottom: 0%;
-  
 }
 
 table.footer tr th{
@@ -150,13 +140,11 @@ table.footer tr th{
   padding: 0%;
   margin: 0%;
   width: 10%;
-  background-color: black;
 }
 
 table.footer tr td{
   text-align: left;
   height: 142px;
-  background-color: black;
 }
 
 table.footer tr td ul li{
@@ -165,7 +153,6 @@ table.footer tr td ul li{
   width: 100%;
   display: block;
   padding: 3px 0px;
-  
 }
 
 table.footer tr td ul li >a{
@@ -217,10 +204,4 @@ footer h5{
 }
 hr{
   margin: 8px 0px;
-}
-
-
-@media only screen and (min-width: 480px) {
-
-   
 }

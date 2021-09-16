@@ -2,6 +2,7 @@
 html{
     font-family: 'Times New Roman', Times, serif;
 }
+
 body {
     counter-reset: title;
     margin: auto;
@@ -50,6 +51,8 @@ nav.header ul{
     height: 100px;
   }
 
+/*body*/
+
 div.w_thing{
    max-width: 980px;
    margin: auto;
@@ -89,6 +92,13 @@ nav li:hover {
             width: 260px;
             height: 100px;
         }
+
+
+.tnc > li {
+    color: #e67300;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
@@ -154,6 +164,8 @@ div.ContactUs i{
     padding-top: 5px;
   
 }
+
+
 /*footer*/
 footer{
     width: 100%;
@@ -164,7 +176,7 @@ footer{
     left: 0px;
     z-index: -1;
     display: block;
-   
+    margin-top: 50px; 
 }
 
 table.footer{

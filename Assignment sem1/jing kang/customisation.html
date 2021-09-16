@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <script src="custom.js"></script>
     <head>
         <title>Customize Your Cake</title>
         <meta charset="UTF-8">
@@ -32,19 +33,19 @@
         <div class="mid">
             <img class="optioncake" src="optioncake.jpg">
             <div class="selection">
-                <label name="size" id="size">Choose Your Size:</label>
+                <label>Choose Your Size:</label>
                 <br>
                 <br>
                 <select name="size" id="size">
-                    <option>6″ round (approx. 1kg) for 10-15 pax</option>
-                    <option>7″ round (approx. 2kg) for 20-25 pax</option>
-                    <option>8″ round (approx 3.5kg) for 25-30 pax</option>
-                    <option>2 tier (approx 4kg) for 40-45 pax</option>
-                    <option>3 tier (approx 8kg) for 70-80 pax</option>
+                    <option value="6 round">6″ round (approx. 1kg) for 10-15 pax</option>
+                    <option value="7 round">7″ round (approx. 2kg) for 20-25 pax</option>
+                    <option value="8 round">8″ round (approx 3.5kg) for 25-30 pax</option>
+                    <option value="2 tier">2 tier (approx 4kg) for 40-45 pax</option>
+                    <option value="3 tier">3 tier (approx 8kg) for 70-80 pax</option>
                 </select>
                 <br>
                 <br>
-                <label id="flavour">Choose Your flavour:</label>
+                <label>Choose Your flavour:</label>
                 <br>
                 <br>
                 <select name="flavour" id="flavour">
@@ -57,7 +58,7 @@
                 </select>
                 <br>
                 <br>
-                <label id="topping">Choose Your Toppings:</label>
+                <label>Choose Your Toppings:</label>
                 <br>
                 <br>
                 <select name="topping" id="topping">
@@ -83,7 +84,7 @@
                 <br>
                 <textarea id="description" name="description" cols="80" rows="10">Tell us more details about your cake</textarea>
                 <br><br>
-                <input type="button" value="Submit" id="submit">
+                <input type="button" value="Submit" id="submit" onclick="submit()">
             </div>
         </div>
         <div>

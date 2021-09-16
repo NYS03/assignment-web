@@ -2,14 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Profile</title>
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
     <link href="myprofile.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="mp_formsubmit.js" ></script>
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
         <nav class="header">
@@ -27,30 +25,9 @@
 
     <h1>MY PROFILE</h1>
     <div class="bg-img">
-        <form name="form" action="../yu shun/addtocart.html" class="container" method="get" onsubmit="return init()">
-            <label for="fname"> &#127872; <b>Name:</b></label><br>
+        <form name="form" action="../yu shun/addtocart.html" class="container" method="get">
+            <label for="fname"> &#127872; <b>Username:</b></label><br>
             <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
-
-            <label for="fname">&#127874; <b>Birth date:</b></label><br>
-            <input type="date" id="fbirth" name="fbirth" max="2005-12-31"><br>
-
-            <label for="fstate">&#127758; <b>State:</b></label><br>
-            <input type="text" list="browsers" name="browsertype" id="browsertype" placeholder="Selangor">
-            <datalist id="browsers">
-                <option value="Johor">Johor</option>
-                <option value="Kedah">Kedah</option>
-                <option value="Kelantan">Kelantan</option>
-                <option value="Malacca">Malacca</option>
-                <option value="Negeri Sembilan">Negeri Sembilan</option>
-                <option value="Pahang">Pahang</option>
-                <option value="Penang">Penang</option>
-                <option value="Perak">Perak</option>
-                <option value="Perlis">Perlis</option>
-                <option value="Sabah">Sabah</option>
-                <option value="Sarawak">Sarawak</option>
-                <option value="Selangor">Selangor</option>
-                <option value="Terengganu">Terengganu</option>
-            </datalist><br>
 
             <label for="phone"> &#128222; <b>Phone Number:</b></label><br>
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (012-3456789)" required><br>
@@ -59,13 +36,18 @@
             <input type="email" id="femail" name="femail" placeholder="Enter your email address (must contain @ )" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Enter your password (must contain more than 8 characters)" required><br>
+            <input type="password" id="psw" name="psw" placeholder="Enter your password" required><br>
 
-            <input type="submit" class="btn" value="Login">
+            <input type="submit" class="btn" value="Login" onclick="alert('Successful login your profile. Please enjoy on your purchasing')">
         </form>
 
-        <p>Enter your details, and click the "Login" button to login your profile</p>
+        <p>Enter your details, and click the "Login" button to login your profile</p><hr>
+        <p>Haven't registered for My Profile yet?<br>
+        Create your account <a href="signup.html">here.</a></p>
+
+        
     </div>
+
     <div>
         <div class="ContactUs">
             <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
@@ -74,53 +56,53 @@
 
 </body>
 
-    <footer>
-        <table class="footer">
-            <tr>
-                <th>LOCATION</th>
-                <th>MENU</th>
-                <th>MORE INFORMATION</th>
-                <th>CONTACTS</th>
-            </tr>
-            <tr>
-                <td style="font-size: 16px;font-family: 'Times New Roman', Times, serif;">
-                    <ul class="location" style="line-height: 20px;">
-                        <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
-                        Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
-                        Bukit Bintang, 55100 Kuala Lumpur,<br>
-                        Wilayah Persekutuan Kuala Lumpur
-                        </i>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="menu">
-                        <li><a href="../jing kang/home.html">Home</a></li>
-                        <li><a href="myprofile.html">Profile</a></li>
-                        <li><a href="../jing kang/customisation.html">Custom cake</a></li>
-                        <li><a href="myfavourite.html">Favourite</a></li>
-                        <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="moreinformation">
-                        <li><a href="../vallerie/faq.html">FAQ</a></li>
-                        <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
-                        <li><a href="../sam/about_us.html">About Us</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="contact">
-                        <li><a href="tel:+60123456789">+6012 345 6789</a></li>
-                        <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
-                        <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
-                        <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
-                        <i class="	fa fa-twitter" style="font-size: 36px;"></i>
-                        <i class="	fa fa-instagram" style="font-size: 36px;"></i>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-            <hr>
-            <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
-    </footer>
+<footer>
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-size: 16px;font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">Lot 7.26 A&B-3, Level 3 Parkson,<br>
+                    Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
+                    Bukit Bintang, 55100 Kuala Lumpur,<br>
+                    Wilayah Persekutuan Kuala Lumpur
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+        <hr>
+        <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
 </html>
