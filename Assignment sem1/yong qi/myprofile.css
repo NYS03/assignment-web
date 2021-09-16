@@ -66,6 +66,9 @@ h1{
 p{
   text-align: center;
 }
+.p1{
+  text-align: center;
+}
 
 .bg-img {
   background-color:burlywood;
@@ -80,12 +83,12 @@ p{
 .container {
   position:relative;
   margin: auto;
-  max-width:850px;
+  max-width:800px;
   padding: 16px;
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password], input[type=date], input[type=tel], input[type=email] {
+input[type=text], input[type=password], input[type=tel], input[type=email] {
   width: 100%;
   padding: 15px;
   display: inline-block;
@@ -113,6 +116,12 @@ div {
 
 .btn:hover {
   opacity: 1;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color: red;
 }
 
 /*footer*/

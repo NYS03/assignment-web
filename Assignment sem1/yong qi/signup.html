@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>My Profile</title>
+    <title>Sign Up</title>
     <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
-    <link href="myprofile.css" rel="stylesheet" />
+    <link href="signup.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
@@ -23,11 +23,35 @@
     </header>
     <br>
 
-    <h1>MY PROFILE</h1>
+    <h1>CREATE  YOUR  ACCOUNT</h1>
     <div class="bg-img">
-        <form name="form" action="../yu shun/addtocart.html" class="container" method="get">
+        <form name="form" action="myprofile.html" class="container" method="get">
             <label for="fname"> &#127872; <b>Username:</b></label><br>
             <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
+
+            <label for="fname">&#127874; <b>Birth date:</b></label><br>
+            <input type="date" id="fbirth" name="fbirth" max="2005-12-31"><br>
+
+            <label for="address"> &#127968; <b>Address:</b></label><br>
+            <input type="text" id="address" name="address" placeholder="Enter your home address" required><br>
+
+            <label for="fstate">&#127758; <b>State:</b></label><br>
+            <input type="text" list="browsers" name="browsertype" id="browsertype" placeholder="Selangor">
+            <datalist id="browsers">
+                <option value="Johor">Johor</option>
+                <option value="Kedah">Kedah</option>
+                <option value="Kelantan">Kelantan</option>
+                <option value="Malacca">Malacca</option>
+                <option value="Negeri Sembilan">Negeri Sembilan</option>
+                <option value="Pahang">Pahang</option>
+                <option value="Penang">Penang</option>
+                <option value="Perak">Perak</option>
+                <option value="Perlis">Perlis</option>
+                <option value="Sabah">Sabah</option>
+                <option value="Sarawak">Sarawak</option>
+                <option value="Selangor">Selangor</option>
+                <option value="Terengganu">Terengganu</option>
+            </datalist><br>
 
             <label for="phone"> &#128222; <b>Phone Number:</b></label><br>
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (012-3456789)" required><br>
@@ -36,14 +60,15 @@
             <input type="email" id="femail" name="femail" placeholder="Enter your email address (must contain @ )" required><br>
             
             <label for="psw"> &#128274; <b>Password:</b></label><br>
-            <input type="password" id="psw" name="psw" placeholder="Enter your password" required><br>
+            <input type="password" id="psw" name="psw" pattern=".{8,}" placeholder="Enter your password (must contain more than 8 characters)" required><br>
 
-            <input type="submit" class="btn" value="Login" onclick="alert('Successful login your profile. Please enjoy on your purchasing')">
+            <input type="checkbox" id="cbox" name="cbox" value="yes" required>
+            <label for="cbox">I agree to the <a href="../vallerie/tnc.html">Terms & Conditions</a></label>
+
+            <input type="submit" class="btn" onclick="alert('Successful create your account. Please login again')" value="Sign up">
+            
         </form>
-
-        <p>Enter your details, and click the "Login" button to login your profile</p><hr>
-        <p>Haven't registered for My Profile yet?<br>
-        Create your account <a href="signup.html">here.</a></p>
+        <p>Enter your details, and click the "Sign up" button to create your account</p>
 
         
     </div>
