@@ -14,15 +14,14 @@ body{
 /*header*/
 nav.header ul{
   list-style-type: none;
-  margin: 0;
+  margin: 8px 8px;
   padding: 0;
   overflow: hidden;
   background-color: rgb(92, 61, 46);
   height: 100px;
-  width: 100%;
+  width: 99%;
   border-radius: 20px;
 }
-
 
 nav.header ul li{
   float: left;
@@ -35,7 +34,7 @@ nav.header li:hover{
 
 nav.header ul li>a{
   display: block;
-  padding: 33px 30px;
+  padding: 27px 30px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
@@ -63,14 +62,11 @@ h1{
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 p{
   text-align: center;
 }
 
-li{
-  float: left;
-  width:10%;
-}
 .bg-img {
   background-color:burlywood;
   background-position: center;
