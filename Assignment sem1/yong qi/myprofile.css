@@ -14,15 +14,14 @@ body{
 /*header*/
 nav.header ul{
   list-style-type: none;
-  margin: 0;
+  margin: 8px 8px;
   padding: 0;
   overflow: hidden;
   background-color: rgb(92, 61, 46);
   height: 100px;
-  width: 100%;
+  width: 99%;
   border-radius: 20px;
 }
-
 
 nav.header ul li{
   float: left;
@@ -35,14 +34,11 @@ nav.header li:hover{
 
 nav.header ul li>a{
   display: block;
-  padding: 0;
+  padding: 27px 30px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
   color: whitesmoke;
-  font-family: 'Times New Roman', Times, serif;
-  padding: 27px 30px;
-  
 }
 
 nav.header ul li > a > img{
@@ -51,6 +47,7 @@ nav.header ul li > a > img{
   height: 100px;
 }
 
+/*my profile*/
 @keyframes colorchange{
   0%{color:brown;}
   50%{color:rgb(231, 98, 98);}
@@ -65,15 +62,17 @@ h1{
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 p{
   text-align: center;
 }
-
-li{
-  float: left;
-  width:10%;
+.p1{
+  text-align: center;
 }
+
 .bg-img {
+  width: 60%;
+  margin: auto;
   background-color:burlywood;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,16 +81,16 @@ li{
   position: relative;
 }
 
-/* Add styles to the form container */
+/* container */
 .container {
   position:relative;
   margin: auto;
-  max-width:850px;
+  width:80%;
   padding: 16px;
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password], input[type=date], input[type=tel], input[type=email] {
+input[type=text], input[type=password], input[type=tel], input[type=email] {
   width: 100%;
   padding: 15px;
   display: inline-block;
@@ -100,7 +99,7 @@ input[type=text], input[type=password], input[type=date], input[type=tel], input
   background: #f1f1f1;
 }
 
-/* Set a style for the submit button */
+/* submit button */
 .btn {
   background-color: #04AA6D;
   color: white;
@@ -113,7 +112,6 @@ input[type=text], input[type=password], input[type=date], input[type=tel], input
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
 }
 
@@ -121,6 +119,15 @@ div {
   opacity: 1;
 }
 
+a:visited{
+  color:blue;
+}
+
+a:hover{
+  color: red;
+}
+
+/*footer*/
 div.ContactUs{
   width: 180px;
   position: fixed;
@@ -161,7 +168,6 @@ footer{
   left: 0px;
   z-index: -1;
   display: block;
-  
 }
 
 table.footer{
@@ -170,7 +176,6 @@ table.footer{
   margin-top: 90px;  
   width: 80%;
   bottom: 0%;
-  
 }
 
 table.footer tr th{
@@ -181,13 +186,11 @@ table.footer tr th{
   padding: 0%;
   margin: 0%;
   width: 10%;
-  
 }
 
 table.footer tr td{
   text-align: left;
   height: 142px;
-  
 }
 
 table.footer tr td ul li{
@@ -196,7 +199,6 @@ table.footer tr td ul li{
   width: 100%;
   display: block;
   padding: 3px 0px;
-  
 }
 
 table.footer tr td ul li >a{
