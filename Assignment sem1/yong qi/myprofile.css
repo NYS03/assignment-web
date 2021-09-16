@@ -71,6 +71,8 @@ p{
 }
 
 .bg-img {
+  width: 60%;
+  margin: auto;
   background-color:burlywood;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,7 +85,7 @@ p{
 .container {
   position:relative;
   margin: auto;
-  max-width:800px;
+  width:80%;
   padding: 16px;
 }
 
@@ -110,16 +112,17 @@ input[type=text], input[type=password], input[type=tel], input[type=email] {
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
 }
 
 .btn:hover {
   opacity: 1;
 }
+
 a:visited{
   color:blue;
 }
+
 a:hover{
   color: red;
 }
