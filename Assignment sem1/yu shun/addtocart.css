@@ -61,7 +61,7 @@ body {
 
 .shopping-cart {
     width: 800px;
-    height: 423px;
+    height: 1150px;
     margin: 80px auto;
     background: #FFFFFF;
     border-radius: 6px;
@@ -84,7 +84,7 @@ body {
     display: flex;
 }
 
-.item:nth-child(3) {
+.item:nth-child(1), .item:nth-child(3), .item:nth-child(5), .item:nth-child(7), .item:nth-child(9), .item:nth-child(11), .item:nth-child(13) {
     border-top: 1px solid #E1E8EE;
     border-bottom: 1px solid #E1E8EE;
 }

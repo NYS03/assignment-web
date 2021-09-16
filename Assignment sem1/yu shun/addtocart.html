@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="addtocart.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="button.js" async></script>
 <html>
     <header>
         <nav class="header">
@@ -15,85 +16,232 @@
         </nav>
     </header>
 <body>
-<div class="shopping-cart">
-    <div class="title">
-        Shopping Cart
+    <div class="shopping-cart">
+        <div class="title">
+            Shopping Cart
+        </div>
+        <!--first item-->
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="baguette.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <br>
+                <span>Baguette</span>
+                <span class="price1">RM10.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton1()">+</button>
+                <input id="cart-quantity1" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton1()">-</button>
+            </div>
+
+            <span class="cart-price">RM10.00</span>
+        </div>
+
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="banana_bread1.jpg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <span>Banana</span>
+                <span>Bread</span>
+                <span class="price">RM20.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton2()">+</button>
+                <input id="cart-quantity2" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton2()">-</button>
+            </div>
+
+            <span class="cart-price"></span>
+        </div>
+
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="sponge_cake.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <span>Sponge</span>
+                <span>Cake</span>
+                <span class="price">RM99.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton3()">+</button>
+                <input id="cart-quantity3" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton3()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="challah.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <br>
+                <span>Challah</span>
+                <span class="price">RM7.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton4()">+</button>
+                <input id="cart-quantity4" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton4()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="chocolate_cake.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <span>Chocolate</span>
+                <span>Cake</span>
+                <span class="price">RM110</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton5()">+</button>
+                <input id="cart-quantity5" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton5()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="cookies.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <br>
+                <span>Cookies</span>
+                <span class="price">RM15.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton6()">+</button>
+                <input id="cart-quantity6" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton6()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="fruit_tarts.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <span>Fruit</span>
+                <span>Tarts</span>
+                <span class="price">RM40.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton7()">+</button>
+                <input id="cart-quantity7" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton7()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="macron_prod.jpeg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <span>Macron</span>
+                <span>Prod</span>
+                <span class="price">RM30.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton8()">+</button>
+                <input id="cart-quantity8" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton8()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+        <div class="item">
+            <div class="row"></div>
+            <div class="buttons">
+                <button type="button">Delete</button>
+            </div>
+
+            <div class="image">
+                <img src="pies1.jpg" alt="" width="145" height="88" />
+            </div>
+
+            <div class="description">
+                <br>
+                <span>Pies</span>
+                <span class="price">RM50.00</span>
+            </div>
+
+            <div class="quantity">
+                <button type="button" onclick="incrementButton9()">+</button>
+                <input id="cart-quantity9" type="text" name="name" value="1">
+                <button type="button" onclick="decrementButton9()">-</button>
+            </div>
+
+            <div class="cart-price">RM0</div>
+        </div>
+
     </div>
-<!--first item-->
-    <div class="item">
-        <div class="buttons">
-            <button type="button">Delete</button>
-        </div>
-
-        <div class="image">
-            <img src="cake1.jpg" alt="" width="145" height="88" />
-        </div>
-
-        <div class="description">
-            <span>Cake</span>
-            <span>Cake</span>
-            <span>Cake</span>
-        </div>
-
-        <div class="quantity">
-            <button type="button">+</button>
-            <input type="text" name="name" value="1">
-            <button type="button">-</button>
-        </div>
-
-        <div class="total-price">RM690</div>
-    </div>
-
-<!--Second item-->
-    <div class="item">
-        <div class="buttons">
-            <button type="button">Delete</button>
-        </div>
-
-        <div class="image">
-            <img src="cake1.jpg" alt="" width="145" height="88" />
-        </div>
-
-        <div class="description">
-            <span>Cake</span>
-            <span>Cake</span>
-            <span>Cake</span>
-        </div>
-
-        <div class="quantity">
-            <button type="button">+</button>
-            <input type="text" name="name" value="1">
-            <button type="button">-</button>
-        </div>
-
-        <div class="total-price">RM690</div>
-    </div>
-
-<!--Third item-->
-    <div class="item">
-        <div class="buttons">
-            <button type="button">Delete</button>
-        </div>
-
-        <div class="image">
-            <img src="cake1.jpg" alt="" width="145" height="88" />
-        </div>
-
-        <div class="description">
-            <span>Cake</span>
-            <span>Cake</span>
-            <span>Cake</span>
-        </div>
-
-        <div class="quantity">
-            <button type="button">+</button>
-            <input type="text" name="name" value="1">
-            <button type="button">-</button>
-        </div>
-
-        <div class="total-price">RM690</div>
-    </div>
-</div>
 <div>
     <div class="ContactUs">
         <i class="fa fa-envelope-o" style="font-size:36px; " ></i><a href="../vallerie/contact.html">Contact_Us</a>
