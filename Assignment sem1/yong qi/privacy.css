@@ -49,34 +49,43 @@ nav.header ul li > a > img{
 
 /*privacy*/
 h1{
-    font-family: sans-serif;
-   text-align: center;
+  font-family: sans-serif;
+ text-align: center;
 }
+
 h3{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(209, 68, 17);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(209, 68, 17);
 }
+
 p{
-    text-align: center;
+  text-align: center;
 }
-p2{
-    color: rgb(138, 50, 9);
+
+span{
+  color: rgb(138, 50, 9);
 }
-a:link{
-   color:blue;
+
+a:visited{
+ color:blue;
 }
 a:hover{
-   color: red;
+ color: red;
 }
+
 li a:hover{
-    color:rgb(64, 43, 199);
+  color:rgb(64, 43, 199);
 }
+
 li a{
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
+
 div.privacy{
-    margin:20px 240px 40px 240px;
+  margin:20px 240px 50px 240px;
 }
+
 
 /*footer*/
 div.ContactUs{
