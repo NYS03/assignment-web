@@ -91,18 +91,35 @@ p{
 }
 .love{
   width: 35px;
-  margin: 40px 20px;
+  margin: 45px 20px; 
   float: right;
 }
 .love:hover{
   color: red;
 }
-.p2{
+
+span.p2{
   margin-left: 80px;
   font-size: 18px;
 }
-.p3{
-  margin-left: 80px;
+span.p3{
+  margin-left: 180px;
+  font-size: 16px;
+}
+span.p4{
+  margin-left: 170px;
+  font-size: 16px;
+}
+span.p5{
+  margin-left: 215px;
+  font-size: 16px;
+}
+span.p6{
+  margin-left: 130px;
+  font-size: 16px;
+}
+span.p7{
+  margin-left: 185px;
   font-size: 16px;
 }
 
