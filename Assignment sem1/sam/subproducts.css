@@ -62,11 +62,12 @@ nav.header ul li > a > img {
     }
 
 /*Sub products*/
-.titlespd{
+.titlespd {
     padding-left: 2%;
     padding-bottom: 2%;
     font-size: 20px;
     float: left;
+    font-variant: small-caps;
 }
 
 .btns{
