@@ -67,7 +67,6 @@ nav.header ul li > a > img {
     padding-bottom: 2%;
     font-size: 20px;
     float: left;
-    font-variant: small-caps;
 }
 
 .btns{
@@ -118,7 +117,8 @@ article {
     padding-left: 2%;
     padding-right: 2%;
 }
-h3{
+h3 {
+    font-variant: small-caps;
     padding-top: 3%;
     text-decoration: underline;
 }
