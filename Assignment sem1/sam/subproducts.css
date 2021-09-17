@@ -54,6 +54,12 @@ nav.header ul li > a {
     }
 
 /*Sub products*/
+.titlespd{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    float: left;
+}
 img {
     float: left;
     border-radius: 8px;
@@ -65,19 +71,27 @@ img {
 }
 button.myfav{
     position: relative;
-    bottom:-1px;
-    height: 21px;
+    bottom: -10px;
 }
 .subpd {
-    clear: left;
-    padding-top: 1%;
-    vertical-align: middle;
-    padding-left: 2%;
+    float: left;
+    padding: 2%;
 }
 
+hr{
+    clear: both;
+    color: black;
+}
 article {
     clear: left;
     padding-left: 2%;
+}
+h3{
+    padding-top: 3%;
+    text-decoration: underline;
+}
+article.AA{
+
 }
 
 @media only screen and (max-width: 570px) {
