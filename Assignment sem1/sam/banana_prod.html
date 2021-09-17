@@ -13,6 +13,8 @@
     <title>SHOME</title>
     <link href="subproducts.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -31,13 +33,9 @@
     </header>
 
     <!--Main-->
-    <p class="titlespd"><strong>Banana Bread (9 inch) &#10147; RM20.00</strong></p>
-    <div class="subpd">
-        <form action="/action_page.php" method="get">
-            <button class="myfav" type="add" value="myfav">
-                <img class="ficon" src="heart.png" width="10" height="10" style="margin: 5">
-            </button>
-        </form>
+    <p class="titlespd"><strong>Banana Bread (9') &#10147; RM20.00</strong></p>
+    <div class="btnsc">
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart fa-xs"></i></Button>
     </div>
     <hr/>
     <img src="banana_bread1.jpg" alt="Banana Bread" width="200" height="300">
@@ -75,6 +73,20 @@
             <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
         </div>
     </div>
+
+    <script>
+        //Like Button   
+           var btnvar1 = document.getElementById('btnh1');
+
+        function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+       }
+    </script>
 </body>
 <br />
 
