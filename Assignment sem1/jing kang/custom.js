@@ -6,6 +6,8 @@ function submit(){
 
     alert ("Your order has been placed !\n" + "Size :" + size + "\n" + "Flavour :" + flavour + "\n" +"Toppings :" + topping + "\n" + "Thank You for buying SHOME product");
 
-    document.location='home.html'
+    document.location='../yu shun/payment_gateway.html';
+
 }
+
 

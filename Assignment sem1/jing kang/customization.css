@@ -51,7 +51,7 @@ nav.header ul li > a > img{
     
 }
 
-div.samples img{
+div#samples img{
     width: 33%;
    height: 500px;
    margin-top: 1%;

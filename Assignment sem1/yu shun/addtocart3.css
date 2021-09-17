@@ -70,6 +70,10 @@ select#Quantity1, select#Quantity2, select#Quantity3, select#Quantity4, select#Q
     opacity: 1;
 }
 
+form#addtocart{
+    margin-bottom: 100px;
+}
+
 footer {
     width: 100%;
     background-color: black;
