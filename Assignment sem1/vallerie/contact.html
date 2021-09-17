@@ -44,19 +44,19 @@
                     </div>
                     <div class="cuformT" id="f_first_name">
                         <label for="first_name">First Name<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="text" name="first_name" id="first_name" required pattern="[a-zA-Z ]{2,}" /><br><br>
+                        <input type="text" name="first_name" id="first_name" required pattern="[a-zA-Z ]{2,}" title="First name should only contain lowercase and uppercase letter." /><br><br>
                     </div>
                     <div class="cuformT" id="f_last_name">
                         <label for="last_name">Last Name<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="text" name="last_name" id="last_name" required pattern="[a-zA-Z ]{2,}" /><br><br>
+                        <input type="text" name="last_name" id="last_name" required pattern="[a-zA-Z ]{2,}" title="Last name should only contain lowercase and uppercase letter." /><br><br>
                     </div>
                     <div class="cuformT" id="f_email">
                         <label for="email">Email<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /><br><br>
+                        <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email." /><br><br>
                     </div>
                     <div class="cuformT" id="f_phone">
                         <label for="phone">Phone<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="tel" name="phone" id="phone" required pattern="[0-9-]{19,12}" /><br><br>
+                        <input type="tel" name="phone" id="phone" required pattern="[0-9-]{9,12}" title="Please enter a valid phone number."/><br><br>
                     </div>
                     <div class="cuformT" id="f_address">
                         <label for="address">Address<span class="fsRequiredMarker">*</span></label><br />
@@ -64,7 +64,7 @@
                     </div>
                     <div class="cuformT" id="f_city">
                         <label for="city">City<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="text" name="city" id="city" required pattern="[a-zA-Z ]{2,}" /><br><br>
+                        <input type="text" name="city" id="city" required pattern="[a-zA-Z ]{2,}" title="Please enter a valid city" /><br><br>
                     </div>
                     <div class="cuformT" id="f_state">
                         <label for="state">State<span class="fsRequiredMarker">*</span></label><br />
@@ -90,7 +90,7 @@
                     </div>
                     <div class="cuformT" id="f_postal">
                         <label for="postal">Postal Code<span class="fsRequiredMarker">*</span></label><br />
-                        <input type="text" name="postal" id="postal" pattern="[0-9 ]{5}" required /><br><br>
+                        <input type="text" name="postal" id="postal" pattern="[0-9 ]{5}" required title="Postal code should only contain 5 numerical number."/><br><br>
                     </div>
                     <div class="cuformT" id="f_message">
                         <label for="details">Please provide details on issue or question:<span class="fsRequiredMarker">*</span></label><br />

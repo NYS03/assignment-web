@@ -92,7 +92,7 @@ div.contactUsForm {
    
 }
 
-@-webkit-keyframes formMove {
+@keyframes formMove {
     0% {
         left: -100px;
     }
@@ -155,6 +155,21 @@ button[type=submit] {
 input[type="file"] {
     border: none;
 }
+
+
+
+input#first_name:focus:invalid,
+input#last_name:focus:invalid,
+input#email:focus:invalid,
+input#phone:focus:invalid,
+input#city:focus:invalid,
+input#postal:focus:invalid {
+    background: rgb(255,232,233) url(error.jpg) bottom right no-repeat; 
+}
+
+
+
+
 
 div.ContactUs {
     width: 180px;
