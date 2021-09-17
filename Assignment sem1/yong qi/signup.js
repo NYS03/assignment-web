@@ -6,7 +6,6 @@ function init() {
             document.getElementById('fname').value="";
             alert("Successful create your account. Please login again");
             return true;
-            
         }
     }    
 }

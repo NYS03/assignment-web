@@ -14,12 +14,12 @@ body{
 /*header*/
 nav.header ul{
   list-style-type: none;
-  margin: 8px 8px;
+  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(92, 61, 46);
   height: 100px;
-  width: 99%;
+  width: 100%;
   border-radius: 20px; 
 }
 
@@ -34,7 +34,7 @@ nav.header li:hover{
 
 nav.header ul li>a{
   display: block;
-  padding: 27px 30px;
+  padding: 33px 30px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
@@ -76,11 +76,13 @@ input[type="submit"]{
   border: none;
 }
 div.favourite{
+  padding-top: 10px;
   margin: 40px 280px 20px 280px;
   background-color: white;
 }
 div.product{
   margin:20px;
+  padding-bottom: 10px;
 }
 div.img{
   margin-bottom: 50px;
@@ -100,26 +102,27 @@ p{
 
 span.p2{
   margin-left: 80px;
-  font-size: 18px;
+  padding-bottom: 40px;
+  font-size: 20px;
 }
 span.p3{
-  margin-left: 180px;
-  font-size: 16px;
-}
-span.p4{
   margin-left: 170px;
   font-size: 16px;
 }
+span.p4{
+  margin-left: 158px;
+  font-size: 16px;
+}
 span.p5{
-  margin-left: 215px;
+  margin-left: 208px;
   font-size: 16px;
 }
 span.p6{
-  margin-left: 130px;
+  margin-left: 114px;
   font-size: 16px;
 }
 span.p7{
-  margin-left: 185px;
+  margin-left: 175px;
   font-size: 16px;
 }
 
