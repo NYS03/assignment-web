@@ -1,6 +1,11 @@
 function submit(){
-    alert("Your order has been placed.We will contact you ASAP")
-    document.location='home.html'
+    var size = document.getElementById('size').selectedOptions[0].value;
+    var flavour = document.getElementById('flavour').selectedOptions[0].value;
+    var topping = document.getElementById('topping').selectedOptions[0].value;
+    
 
+    alert ("Your order has been placed !\n" + "Size :" + size + "\n" + "Flavour :" + flavour + "\n" +"Toppings :" + topping + "\n" + "Thank You for buying SHOME product");
+
+    document.location='home.html'
 }
 
