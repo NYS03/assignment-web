@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+
+/*
+    SHOME - Subproducts's Css
+
+    Author: SAM HEW WEI
+    Date:   11th September 2021
+
+    Filename: subproducts.css*/
 html {
     position: relative;
     width: 100%;
@@ -77,12 +85,6 @@ nav.header ul li > a > img {
     position: absolute;
     top: 54px;
     left: 310px;
-    display: flex;
-}
-.btnsc{
-    position: absolute;
-    top: 35px;
-    left: 220px;
     display: flex;
 }
 .btn{
