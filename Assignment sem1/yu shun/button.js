@@ -142,15 +142,11 @@ function decrementButton9() {
     console.log(value);
 }
 
-function productpagetotal() {
-    var totalPrice = document.getElementsByClassName("cart-price");
+function countCart() {
     var quantity = document.getElementById('cart-quantity1');
     var price = document.getElementsByClassName("price1");
-
-    var sum = quantity * price;
-    sum = Math.round(sum * 100) / 100;
-    totalPrice.innerHTML = 'RM' + sum;
-
+    var totalPrice = document.getElementById('cart-price1');
+    totalPrice = 0;
+    totalPrice = quantity * price;
+    return totalPrice;
 }
-
-
