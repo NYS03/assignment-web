@@ -13,7 +13,7 @@
     <title>SHOME | Baguette</title>
     <link href="subproducts.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="like.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,7 +36,8 @@
     <!--Main-->
     <p class="titlespd"><strong>Baguette &#10147; RM10.00</strong></p>
     <div class="btns">
-        <Button onclick="like()" id="btnh1" class="btn"><i class="fas fa-heart fa-xs"></i></Button>
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart fa-xs"></i></Button>
+        
     </div>
     <hr/>
     <img src="baguette1.jpg" alt="Baguette" width="200" height="300">
@@ -79,7 +80,7 @@
     </div>
     <script>
         //Like Button   
-           var btnvar1 = document.getElementById('btnh1');
+        var btnvar1 = document.getElementById('btnh1');
 
         function Toggle1(){
                 if (btnvar1.style.color =="red") {
@@ -88,7 +89,9 @@
                 else{
                     btnvar1.style.color = "red"
                 }
-       }
+            alert ("Thank you for your favourite !\nYou are loved, too.");
+            document.location='../yong qi/myfavourite.html';
+        }
         </script>
 </body>
 <br />
