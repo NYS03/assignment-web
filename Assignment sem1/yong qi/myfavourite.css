@@ -64,7 +64,7 @@ h1{
   animation-iteration-count: infinite;
 }
 
-input[type="submit"]{
+input[type=submit]{
   text-align: center;
   margin: auto;
   display:flex;
@@ -84,16 +84,14 @@ div.product{
   margin:20px;
   padding-bottom: 10px;
 }
-div.img{
-  margin-bottom: 50px;
-}
+
 p{
  font-size: 16px;
   text-align: center;
 }
 .love{
   width: 35px;
-  margin: 45px 20px; 
+  margin: 50px 20px; 
   float: right;
 }
 .love:hover{
@@ -102,7 +100,6 @@ p{
 
 span.p2{
   margin-left: 80px;
-  padding-bottom: 40px;
   font-size: 20px;
 }
 span.p3{
